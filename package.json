@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Saltside/ios-mock/issues"
   },
-  "homepage": "https://github.com/Saltside/ios-mock#readme"
+  "homepage": "https://github.com/Saltside/ios-mock#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "errorhandler": "^1.4.3",
