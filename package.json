@@ -1,0 +1,28 @@
+{
+  "name": "ios-mock-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test/schema.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saltside/ios-mock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saltside/ios-mock/issues"
+  },
+  "homepage": "https://github.com/Saltside/ios-mock#readme"
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "morgan": "^1.6.1",
+    "glob": "^7.1.1",
+    "tv4": "^1.2.7"
+  }
+}
