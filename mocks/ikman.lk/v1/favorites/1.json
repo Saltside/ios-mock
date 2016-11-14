@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "en_LK",
+      "Application-Identifier": "32e663d2-c206-4043-b9e6-2c441c618e6a",
+      "Application-Name": "android",
+      "Categories-Version": "aed65a77b1d2448f077c69a5e3726427",
+      "Content-Type": "application/json",
+      "Locations-Version": "cc3438ad70faa24cbc008fc6534f78a0"
+    }
+  },
+  "response": {
+    "schema": "responses/get_favorites.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": ["569cc940333431000500019a"]
+  }
+}

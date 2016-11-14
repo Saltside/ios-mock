@@ -1,0 +1,45 @@
+{
+  "request": {
+    "schema": "requests/verify_phone_number.json",
+    "method": "POST",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "phone": "0500444441",
+      "verification_code": "1111"
+    }
+  },
+  "response": {
+    "schema": "responses/verify_phone_number.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "account": {
+        "id": "developer",
+        "profile": {
+          "name": "Developer",
+          "type": "private",
+          "opt_out": true,
+          "location": {
+            "id": 5001001,
+            "name": "Agbado/Oke-Odo"
+          }
+        },
+        "recent_phone_numbers": [{
+          "number": "087541655",
+          "verified": false
+        }],
+        "login": {
+          "email": "developer@saltside.se"
+        },
+        "pick_up_code": "943"
+      }
+    }
+  }
+}

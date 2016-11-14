@@ -1,0 +1,99 @@
+{
+  "request": {
+    "schema": "requests/post_ad.json",
+    "method": "POST",
+    "headers": {
+      "Mock": "no-pick-up-code",
+      "Accept-Language": "en_NG",
+      "Ad-Form-Version": "form",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "ad": {
+        "category": 5010100,
+        "contact_card": {
+          "email": "developer@saltside.se",
+          "opt_out": false,
+          "phone_numbers": [
+            "012345678"
+            ]
+        },
+        "images": [],
+        "location": 5001001,
+        "properties": [
+          {
+            "key": "title",
+            "type": "title",
+            "value": "Test title"
+          },
+          {
+            "key": "description",
+            "type": "description",
+            "value": "Testing with a valid description. This test is performed by espresso in Verona, Italy."
+          }
+        ],
+        "type": "to_buy"
+      }
+    }
+  },
+  "response": {
+    "schema": "responses/post_ad.json",
+    "code": 201,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "ad": {
+        "id": "test-post-ad",
+        "slug": "test-post-ad",
+        "title": "Test title",
+        "description": "Testing with a valid description. This test is performed by espresso in Verona, Italy.",
+        "type": "to_buy",
+        "area": {
+          "id": 5001000,
+          "name": "Lagos"
+        },
+        "location": {
+          "id": 5001001,
+          "name": "Agbado/Oke-Odo"
+        },
+        "category": {
+          "id": 5010100,
+          "name": "Cars"
+        },
+        "contact_card": {
+          "name": "Developer",
+          "email": {
+            "verified": false
+          },
+          "phone_numbers": [{
+            "number": "012345678",
+            "verified": false
+          }],
+          "opt_out": true,
+          "chat_enabled": false
+        },
+        "status": "pending",
+        "details": [],
+        "url": "http://staging.efritin.com/en/ad/test-post-ad",
+        "account": {
+          "id": "test-post-account",
+          "traits": {}
+        },
+        "properties": [],
+        "promotions": {
+          "top_ad": false,
+          "bump_up": false
+        },
+        "features": {
+          "buy_now": false
+        }
+      },
+      "subscription": {
+        "status": "under_limit"
+      }
+    }
+  }
+}

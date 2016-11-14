@@ -1,0 +1,53 @@
+{
+  "request": {
+    "schema": "requests/create_session.json",
+    "method": "POST",
+    "headers": {
+      "Accept-Language": "en_BD",
+      "Application-Identifier": "76db3ecb-4a7c-4c51-a9a9-009a7258607a",
+      "Application-Name": "android",
+      "Categories-Version": "c879bd58dcea3bd8a19c8aa1377ebdd6",
+      "Content-Type": "application/json",
+      "Locations-Version": "ff586d05a30872cce2cb2b3c4da34a72"
+    },
+    "body": {
+      "session": {
+        "identifier": "developer@saltside.se",
+        "password": "kanelbulle"
+      }
+    }
+  },
+  "response": {
+    "schema": "responses/create_session.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "session": {
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50IjoiNTY2ODA4NjgzNzYyNjUwMDA1MDAwMDEwIn0.s-lb_D8i7UFGfPIJAL4p3kO1lv9C05to_egWkSYBehc"
+      },
+      "account": {
+        "id": "566808683762650005000010",
+        "profile": {
+          "name": "Developer",
+          "type": "private",
+          "opt_out": true,
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          }
+        },
+        "recent_phone_numbers": [{
+          "number": "08784443",
+          "verified": false
+        }],
+        "login": {
+          "email": "developer@saltside.se"
+        },
+        "pick_up_code": "943"
+      }
+    }
+  }
+}

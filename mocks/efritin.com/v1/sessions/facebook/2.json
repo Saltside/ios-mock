@@ -1,0 +1,56 @@
+{
+  "request": {
+    "schema": "requests/create_facebook_session.json",
+    "method": "POST",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Identifier": "2f85d4fc-339e-455b-8990-8029f3d90f86",
+      "Application-Name": "android",
+      "Categories-Version": "8c92b8560cbc5238b64f9ece384105bf",
+      "Content-Type": "application/json",
+      "Locations-Version": "237c7035db9fef6a2538855b6155bf36"
+    },
+    "body": {
+      "session": {
+        "user_id": "saltside-facebook-user-id",
+        "access_token": "saltside-facebook-access-token",
+        "app_id": "saltside-facebook-app-id",
+        "phone": "09999911111"
+      }
+    }
+  },
+  "response": {
+    "schema": "responses/create_session.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "session": {
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50IjoiNTU5NTM1MGM2NjMyMzgwMDBjMDAwMDAwIn0.XiNKgRXYpQ8Fd3Mg5UwxifeSGKPGzsl-u7Eo5xey9XE"
+      },
+      "account": {
+        "id": "developer",
+        "profile": {
+          "name": "Facebook Developer",
+          "type": "private",
+          "opt_out": true,
+          "location": {
+            "id": 5001001,
+            "name": "Agbado/Oke-Odo"
+          }
+        },
+        "recent_phone_numbers": [{
+          "number": "09999911111",
+          "verified": false
+        }],
+        "login": {
+          "phone_number": "09999911111",
+          "has_password": false
+        },
+        "pick_up_code": "943"
+      }
+    }
+  }
+}

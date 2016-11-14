@@ -1,0 +1,83 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Identifier": "2f85d4fc-339e-455b-8990-8029f3d90f86",
+      "Application-Name": "android",
+      "Categories-Version": "8c92b8560cbc5238b64f9ece384105bf",
+      "Content-Type": "application/json",
+      "Locations-Version": "237c7035db9fef6a2538855b6155bf36"
+    },
+    "parameters": {
+      "favorites": true
+    }
+  },
+  "response": {
+    "schema": "responses/get_ads.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "pagination": {
+        "page": 1,
+        "per_page": 25,
+        "total": 1,
+        "pages": 1
+      },
+      "total": {
+        "published": 2,
+        "pending": 0,
+        "unconfirmed": 0,
+        "rejected": 0
+      },
+      "ads": [{
+        "id": "ad3",
+        "slug": "ad3",
+        "title": "Test ad 3",
+        "type": "to_buy",
+        "date": "2016-01-21T13:41:48+01:00",
+        "area": {
+          "id": 5001000,
+          "name": "Lagos"
+        },
+        "location": {
+          "id": 5001001,
+          "name": "Agbado/Oke-Odo"
+        },
+        "category": {
+          "id": 5030100,
+          "name": "Mobile Phones"
+        },
+        "contact_card": {
+          "name": "Developer",
+          "email": {
+            "verified": false
+          },
+          "phone_numbers": [{
+            "number": "087541655",
+            "verified": false
+          }],
+          "opt_out": true,
+          "chat_enabled": false
+        },
+        "status": "published",
+        "details": [],
+        "url": "http://efritin.com/en/ad/test",
+        "account": {
+          "id": "user2",
+          "traits": {}
+        },
+        "promotions": {
+          "top_ad": false,
+          "bump_up": false
+        },
+        "features": {
+          "buy_now": false
+        }
+      }]
+    }
+  }
+}

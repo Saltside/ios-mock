@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Identifier": "2f85d4fc-339e-455b-8990-8029f3d90f86",
+      "Application-Name": "android",
+      "Categories-Version": "8c92b8560cbc5238b64f9ece384105bf",
+      "Content-Type": "application/json",
+      "Locations-Version": "237c7035db9fef6a2538855b6155bf36"
+    }
+  },
+  "response": {
+    "schema": "responses/get_account.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "account": {
+        "id": "developer",
+        "profile": {
+          "name": "Developer",
+          "type": "private",
+          "opt_out": true,
+          "location": {
+            "id": 5001001,
+            "name": "Agbado/Oke-Odo"
+          }
+        },
+        "recent_phone_numbers": [{
+          "number": "087541655",
+          "verified": false
+        }],
+        "login": {
+          "email": "developer@saltside.se",
+          "phone_number": "09740155330",
+          "has_password": true
+        },
+        "pick_up_code": "943"
+      }
+    }
+  }
+}

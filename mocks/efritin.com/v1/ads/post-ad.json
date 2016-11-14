@@ -1,0 +1,101 @@
+{
+  "request": {
+    "schema": "requests/post_ad.json",
+    "method": "POST",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Ad-Form-Version": "2009e425f52b3c93a913562a70bd8a60",
+      "Application-Identifier": "2f85d4fc-339e-455b-8990-8029f3d90f86",
+      "Application-Name": "android",
+      "Categories-Version": "8c92b8560cbc5238b64f9ece384105bf",
+      "Content-Type": "application/json",
+      "Locations-Version": "237c7035db9fef6a2538855b6155bf36"
+    },
+    "body": {
+      "ad": {
+        "category": 5010100,
+        "contact_card": {
+          "email": "developer@saltside.se",
+          "opt_out": false,
+          "phone_numbers": [
+            "012345678"
+            ]
+        },
+        "images": [],
+        "location": 5001001,
+        "properties": [
+          {
+            "key": "title",
+            "type": "title",
+            "value": "Test title"
+          },
+          {
+            "key": "description",
+            "type": "description",
+            "value": "Testing with a valid description. This test is performed by espresso in Verona, Italy."
+          }
+        ],
+        "type": "to_buy"
+      }
+    }
+  },
+  "response": {
+    "schema": "responses/post_ad.json",
+    "code": 201,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "ad": {
+        "id": "56a0d4fb306532000500001a",
+        "slug": "test-buy-lagos",
+        "title": "Test title",
+        "description": "Testing with a valid description. This test is performed by espresso in Verona, Italy",
+        "type": "to_buy",
+        "area": {
+          "id": 5001000,
+          "name": "Lagos"
+        },
+        "location": {
+          "id": 5001001,
+          "name": "Agbado/Oke-Odo"
+        },
+        "category": {
+          "id": 5010100,
+          "name": "Cars"
+        },
+        "contact_card": {
+          "name": "Developer",
+          "email": {
+            "verified": false
+          },
+          "phone_numbers": [{
+            "number": "087541655",
+            "verified": false
+          }],
+          "opt_out": true,
+          "chat_enabled": false
+        },
+        "status": "pending",
+        "details": [],
+        "url": "http://staging.efritin.com/en/ad/test-buy-lagos",
+        "account": {
+          "id": "5595350c663238000c000000",
+          "traits": {}
+        },
+        "properties": [],
+        "promotions": {
+          "top_ad": false,
+          "bump_up": false
+        },
+        "features": {
+          "buy_now": false
+        }
+      },
+      "subscription": {
+        "status": "under_limit"
+      }
+    }
+  }
+}

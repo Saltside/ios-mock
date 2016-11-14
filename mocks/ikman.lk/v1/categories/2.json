@@ -1,0 +1,784 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "ta_LK",
+      "Application-Identifier": "76db3ecb-4a7c-4c51-a9a9-009a7258607a",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    }
+  },
+  "response": {
+    "schema": "responses/get_categories.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "ta",
+      "Content-Type": "application/json",
+      "Version": "c879bd58dcea3bd8a19c8aa1377ebdd6"
+    },
+    "body": {
+      "categories": [{
+        "id": 428,
+        "children": [
+          429,
+          430,
+          898,
+          902,
+          865,
+          864,
+          869,
+          860,
+          443
+        ],
+        "name": "இலத்திரனியல் கருவிகள்",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "electronics"
+      }, {
+        "id": 429,
+        "children": [],
+        "name": "கையடக்க தொலைபேசிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+      	"available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 430,
+        "children": [],
+        "name": "கையடக்க தொலைபேசி துணைக் கருவிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+      	"available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 898,
+        "children": [],
+        "name": "கணனிகள் மற்றும் டேப்லெட்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+      	"available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 902,
+        "children": [],
+        "name": "கணினி துணைக் கருவிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 865,
+        "children": [],
+        "name": "தொலைகாட்சிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 864,
+        "children": [],
+        "name": "TV மற்றும் வீடியோ சாதனங்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 869,
+        "children": [],
+        "name": "கேமரா மற்றும் கேமரா பதிவுகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 860,
+        "children": [],
+        "name": "ஆடியோ மற்றும் MP3",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 443,
+        "children": [],
+        "name": "வேறு இலத்திரனியல் கருவிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 391,
+        "children": [
+          392,
+          402,
+          911,
+          603,
+          403,
+          917,
+          393,
+          925
+        ],
+        "name": "கார்கள் மற்றும் வாகனங்கள்",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "vehicles"
+      }, {
+        "id": 392,
+        "children": [],
+        "name": "கார்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 402,
+        "children": [],
+        "name": "மோட்டார் வாகனம், ஸ்கூட்டர்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 911,
+        "children": [],
+        "name": "முச்சக்கர வண்டிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 603,
+        "children": [],
+        "name": "துவிச்சக்கர வண்டிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 403,
+        "children": [],
+        "name": "வேன்கள் மற்றும் பஸ்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 917,
+        "children": [],
+        "name": "பாரஊர்திகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 393,
+        "children": [],
+        "name": "வாகன உதிரிப்பாகங்கள் மற்றும் துணைக்கருவிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 925,
+        "children": [],
+        "name": "படகுகள் மற்றும் நீர் போக்குவரத்து",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 409,
+        "children": [
+          417,
+          411,
+          410,
+          413,
+          936,
+          422
+        ],
+        "name": "சொத்து",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "property"
+      }, {
+        "id": 417,
+        "children": [],
+        "name": "நிலம்",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 411,
+        "children": [],
+        "name": "வீடுகள்",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 410,
+        "children": [],
+        "name": "குடியிருப்புகள்",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 413,
+        "children": [],
+        "name": "பாகங்களும் அறைகளும்",
+        "ad_types": ["to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 936,
+        "children": [],
+        "name": "விடுமுறை மற்றும் குறுகிய கால வாடகைக்கு",
+        "ad_types": ["for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 422,
+        "children": [],
+        "name": "வணிக உடைமை",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 536,
+        "children": [],
+        "name": "வேலை வாய்ப்புகள்",
+        "ad_types": ["for_sale"],
+      	"available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "jobs"
+      }, {
+        "id": 444,
+        "children": [
+          445,
+          463,
+          455,
+          488
+        ],
+        "name": "வீடு மற்றும் தோட்டம்",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "home"
+      }, {
+        "id": 445,
+        "children": [],
+        "name": "தளபாடம்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 463,
+        "children": [],
+        "name": "வீட்டு சாதனங்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 455,
+        "children": [],
+        "name": "மின்சாரம், வாயுகுளிரூட்டி, குளியலறை மற்றும் தோட்டம்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 488,
+        "children": [],
+        "name": "ஏனைய வீட்டு பொருட்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 470,
+        "children": [
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          483,
+          1014
+        ],
+        "name": "நவநாகரீகம், ஆரோக்கியம் மற்றும் அழகு",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "fashion"
+      }, {
+        "id": 471,
+        "children": [],
+        "name": "ஆடை",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 472,
+        "children": [],
+        "name": "சப்பாத்துகள் மற்றும் பாதணிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 473,
+        "children": [],
+        "name": "ஆபரணம்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 474,
+        "children": [],
+        "name": "சன்கிளாசஸ்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 475,
+        "children": [],
+        "name": "கடிகாரங்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 476,
+        "children": [],
+        "name": "இதர ஃபஷன் சாதனங்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 483,
+        "children": [],
+        "name": "சுகாதாரம் மற்றும் அழகு சாதனப்பொருட்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 1014,
+        "children": [],
+        "name": "இதர பிரத்தியேக பொருட்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 503,
+        "children": [
+          519,
+          504,
+          528,
+          518,
+          513,
+          441,
+          478,
+          534
+        ],
+        "name": "ஓய்வு, பொழுதுபோக்கு மற்றும் விளையாட்டு",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "hobby"
+      }, {
+        "id": 519,
+        "children": [],
+        "name": "வாத்தியக் கருவிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 504,
+        "children": [],
+        "name": "விளையாட்டு உபகரணங்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 528,
+        "children": [],
+        "name": "பிரயாணங்கள், நிகழ்வுகள் மற்றும் டிக்கட்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 518,
+        "children": [],
+        "name": "கலை மற்றும் சேர்க்கைகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 513,
+        "children": [],
+        "name": "இசை, புத்தகங்கள் மற்றும் திரைப்படங்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 441,
+        "children": [],
+        "name": "வீடியோ கேம்ஸ்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 478,
+        "children": [],
+        "name": "குழந்தைகள் பொருட்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 534,
+        "children": [],
+        "name": "ஏனைய பொழுதுபோக்கு,விளையாட்டு மற்றும் சிறுவர்களுக்கான பொருட்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 535,
+        "children": [
+          562,
+          1010,
+          1011,
+          1012,
+          1013,
+          1025
+        ],
+        "name": "வணிகங்கள், சேவைகள் மற்றும் துறை",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "business"
+      }, {
+        "id": 562,
+        "children": [],
+        "name": "சேவைகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1010,
+        "children": [],
+        "name": "அலுவலக விநியோகம் மற்றும் காகிதாதிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1011,
+        "children": [],
+        "name": "தொழிற்துறை உபகரணங்கள் மற்றும் சாதனங்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1012,
+        "children": [],
+        "name": "மூலப்பொருட்கள் மற்றும் கட்டட விநியோக பொருட்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1013,
+        "children": [],
+        "name": "சான்றுகள் மற்றும் தலைப்புகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1025,
+        "children": [],
+        "name": "மருத்துவ உபகரணங்கள் மற்றும் வழங்கல்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 568,
+        "children": [
+          569,
+          574,
+          577
+        ],
+        "name": "கல்வி",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "education"
+      }, {
+        "id": 569,
+        "children": [],
+        "name": "புத்தகங்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 574,
+        "children": [],
+        "name": "மேலதிக வகுப்பு",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 577,
+        "children": [],
+        "name": "இதர கல்வி",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 489,
+        "children": [
+          490,
+          496,
+          499,
+          502
+        ],
+        "name": "விலங்குகள்",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "animals"
+      }, {
+        "id": 490,
+        "children": [],
+        "name": "செல்ல பிராணிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 496,
+        "children": [],
+        "name": "பண்ணை விலங்குகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 499,
+        "children": [],
+        "name": "விலங்குகளுக்கான துணைக்கருவிகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 502,
+        "children": [],
+        "name": "வேறுவிலங்குகள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 587,
+        "children": [
+          588,
+          592,
+          1015,
+          593
+        ],
+        "name": "உணவு மற்றும் விவசாயம்",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "food"
+      }, {
+        "id": 588,
+        "children": [],
+        "name": "உணவு",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 592,
+        "children": [],
+        "name": "பயிர் விதைகள் மற்றும் தாவரங்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1015,
+        "children": [],
+        "name": "விவசாய சாதனங்கள் மற்றும் இயந்திரங்கள்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 593,
+        "children": [],
+        "name": "மற்றைய உணவு மற்றும் விவசாயம்",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 578,
+        "children": [],
+        "name": "மற்றவை",
+        "ad_types": ["for_sale", "to_buy"],
+      	"available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "other"
+      }]
+    }
+  }
+}

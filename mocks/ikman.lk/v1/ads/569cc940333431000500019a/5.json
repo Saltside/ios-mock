@@ -1,0 +1,99 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "si_LK",
+      "Application-Identifier": "32e663d2-c206-4043-b9e6-2c441c618e6a",
+      "Application-Name": "android",
+      "Categories-Version": "aed65a77b1d2448f077c69a5e3726427",
+      "Content-Type": "application/json",
+      "Locations-Version": "cc3438ad70faa24cbc008fc6534f78a0"
+    },
+    "parameters": {
+      "similar_ads": 5,
+      "banners": true
+    }
+  },
+  "response": {
+    "schema": "responses/get_ad.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "si",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "ad": {
+        "id": "569cc940333431000500019a",
+        "slug": "voucher-counter-3-for-sale-kandy",
+        "title": "voucher counter 3",
+        "description": "c15bed227bfa, c15bed227bfa, c15bed227bfa, c15bed227bfa.",
+        "type": "for_sale",
+        "date": "2016-01-21T14:48:34+05:30",
+        "area": {
+          "id": 1636,
+          "name": "නුවර"
+        },
+        "location": {
+          "id": 2584,
+          "name": "ගම්පොල"
+        },
+        "category": {
+          "id": 528,
+          "name": "චාරිකා, උත්සව සහ ප්‍රවේශපත්"
+        },
+        "contact_card": {
+          "name": "olga bolga",
+          "email": {
+            "verified": false
+          },
+          "phone_numbers": [{
+            "number": "034546435234",
+            "verified": false
+          }],
+          "opt_out": true,
+          "chat_enabled": false
+        },
+        "info": "රු 64,535,434",
+        "status": "published",
+        "details": [],
+        "url": "http://staging.ikman.lk/si/ad/voucher-counter-3-for-sale-kandy",
+        "account": {
+          "id": "569cc853333431000500018f",
+          "traits": {}
+        },
+        "properties": [{
+          "label": "අන්දම",
+          "value": "පාවිච්චි කරනලද"
+        }, {
+          "label": "භාණ්ඩ වර්ග",
+          "value": "සංචාර"
+        }],
+        "promotions": {
+          "top_ad": false,
+          "bump_up": false
+        },
+        "money": {
+          "label": "මිල",
+          "amount": "රු 64,535,434"
+        },
+        "features": {
+          "buy_now": false
+        }
+      },
+      "similar_ads": [],
+      "banners": {
+        "android": {
+          "bottom": {
+            "slot": "/134461134/Bikroy_EN_Android_Detailed_300x250_Other_All",
+            "sizes": [
+              {
+                "width": 300,
+                "height": 250
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

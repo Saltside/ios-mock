@@ -1,0 +1,1724 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "en_BD",
+      "Application-Identifier": "fcde6fce-933e-4b5b-ac31-ea99e8ff61e4",
+      "Application-Name": "android",
+      "Categories-Version": "c879bd58dcea3bd8a19c8aa1377ebdd6",
+      "Content-Type": "application/json",
+      "Locations-Version": "ff586d05a30872cce2cb2b3c4da34a72"
+    },
+    "parameters": {
+      "top_ads": 1,
+      "banners": true
+    }
+  },
+  "response": {
+    "schema": "responses/serp.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "pagination": {
+        "page": 1,
+        "per_page": 25,
+        "total": 110,
+        "pages": 5,
+        "next_page_url": "http://staging.api.bikroy.com/v1/serp?top_ads=1&banners=true&page=2&next_page_token=1452260971",
+        "next_page_token": "1452260971"
+      },
+      "serp": {
+        "categories": [{
+          "id": 229,
+          "name": "Electronics",
+          "count": 65
+        }, {
+          "id": 349,
+          "name": "Job Openings",
+          "count": 13
+        }, {
+          "id": 390,
+          "name": "Other",
+          "count": 10
+        }, {
+          "id": 192,
+          "name": "Cars & Vehicles",
+          "count": 7
+        }, {
+          "id": 314,
+          "name": "Hobby, Sport & Kids",
+          "count": 5
+        }, {
+          "id": 210,
+          "name": "Property",
+          "count": 3
+        }, {
+          "id": 299,
+          "name": "Pets & Animals",
+          "count": 3
+        }, {
+          "id": 245,
+          "name": "Home & Garden",
+          "count": 2
+        }, {
+          "id": 273,
+          "name": "Clothing, Health & Beauty",
+          "count": 1
+        }, {
+          "id": 594,
+          "name": "Food & Agriculture",
+          "count": 1
+        }],
+        "locations": [{
+          "id": 1141,
+          "name": "Dhaka Division",
+          "count": 45
+        }, {
+          "id": 1211,
+          "name": "Dhaka",
+          "count": 37
+        }, {
+          "id": 1179,
+          "name": "Khulna",
+          "count": 9
+        }, {
+          "id": 1346,
+          "name": "Sylhet",
+          "count": 5
+        }, {
+          "id": 1194,
+          "name": "Rangpur Division",
+          "count": 4
+        }, {
+          "id": 1204,
+          "name": "Barisal Division",
+          "count": 1
+        }, {
+          "id": 2002000,
+          "name": "Barishal",
+          "count": 2
+        }, {
+          "id": 1295,
+          "name": "Chittagong",
+          "count": 4
+        }, {
+          "id": 1159,
+          "name": "Chittagong Division",
+          "count": 2
+        }, {
+          "id": 2001000,
+          "name": "Rajshahi",
+          "count": 1
+        }],
+        "types": [{
+          "key": "for_sale",
+          "count": 102
+        }, {
+          "key": "to_buy",
+          "count": 6
+        }, {
+          "key": "for_rent",
+          "count": 1
+        }, {
+          "key": "to_rent",
+          "count": 1
+        }],
+        "sort_options": ["price", "date"],
+        "sort_option": "date",
+        "results": [{
+          "id": "567955d2363364000b000015",
+          "slug": "test-title-for-sale-dhaka-division",
+          "title": "Test Title",
+          "type": "for_sale",
+          "date": "2015-12-22T19:53:23+06:00",
+          "area": {
+            "id": 1141,
+            "name": "Dhaka Division"
+          },
+          "location": {
+            "id": 1142,
+            "name": "Faridpur"
+          },
+          "category": {
+            "id": 347,
+            "name": "Other Hobby, Sport & Kids items"
+          },
+          "contact_card": {
+            "name": "lisa",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "08023104933",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 12,345",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/test-title-for-sale-dhaka-division",
+          "account": {
+            "id": "5666eca23762650005000008",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 12,345"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 12,345",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 12,345",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 12,345",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5673e2fa3265320005000053",
+          "slug": "meeeeehmeeeeehmeeeeeh-for-sale-sylhet",
+          "title": "meeeeehmeeeeehmeeeeeh",
+          "type": "for_sale",
+          "date": "2015-12-22T12:23:45+06:00",
+          "area": {
+            "id": 1346,
+            "name": "Sylhet"
+          },
+          "location": {
+            "id": 1351,
+            "name": "Balaganj"
+          },
+          "category": {
+            "id": 313,
+            "name": "Other Pets & Animals"
+          },
+          "contact_card": {
+            "name": "meh meh meh",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "034534534",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 34",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/meeeeehmeeeeehmeeeeeh-for-sale-sylhet",
+          "account": {
+            "id": "5673e2d3326532000500004b",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 34"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 34",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 34",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 34",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5673dcf2326532000500003d",
+          "slug": "used-light-testing-repost-for-sale-dhaka",
+          "title": "Used light testing repost",
+          "type": "for_sale",
+          "date": "2015-12-22T12:08:12+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          },
+          "category": {
+            "id": 246,
+            "name": "Furniture"
+          },
+          "contact_card": {
+            "name": "lisa",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "08023104933",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 123",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/used-light-testing-repost-for-sale-dhaka",
+          "account": {
+            "id": "5666eca23762650005000008",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 123"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 123",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 123",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 123",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5673dc68326532000500003a",
+          "slug": "used-book-title-testing-repost-for-sale-dhaka",
+          "title": "Used book title - testing repost",
+          "type": "for_sale",
+          "date": "2015-12-22T11:50:38+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          },
+          "category": {
+            "id": 325,
+            "name": "Music, Books & Movies"
+          },
+          "contact_card": {
+            "name": "lisa",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "08023104933",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 19,283",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/used-book-title-testing-repost-for-sale-dhaka",
+          "account": {
+            "id": "5666eca23762650005000008",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 19,283"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 19,283",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 19,283",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 19,283",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5677f1e0326532000500006d",
+          "slug": "benq-ffzjtzit-replica-clone-for-sale-dhaka",
+          "title": "BenQ ffzjtzit Replica / Clone",
+          "type": "for_sale",
+          "date": "2015-12-22T01:52:39+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1255,
+            "name": "Mirpur"
+          },
+          "category": {
+            "id": 230,
+            "name": "Mobile Phones"
+          },
+          "contact_card": {
+            "name": "hui",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 3,333",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/benq-ffzjtzit-replica-clone-for-sale-dhaka",
+          "account": {
+            "id": "5677f1df3265320005000068",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 3,333"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 3,333",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 3,333",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 3,333",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5670128f336562000500008e",
+          "slug": "ze-kitteh-for-sale-sylhet",
+          "title": "ze kitteh",
+          "type": "for_sale",
+          "date": "2015-12-17T13:34:12+06:00",
+          "area": {
+            "id": 1346,
+            "name": "Sylhet"
+          },
+          "location": {
+            "id": 1351,
+            "name": "Balaganj"
+          },
+          "category": {
+            "id": 390,
+            "name": "Other"
+          },
+          "contact_card": {
+            "name": "meh meh",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0234524423",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 3,456,432",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/ze-kitteh-for-sale-sylhet",
+          "account": {
+            "id": "5670128e3365620005000089",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 3,456,432",
+            "negotiable": "Negotiable"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 3,456,432",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 3,456,432",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 3,456,432",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "566ea4e7336562000500002b",
+          "slug": "jhjkjkhjkhjk-for-sale-barishal",
+          "title": "jhjkjkhjkhjk",
+          "type": "for_sale",
+          "date": "2015-12-17T13:34:02+06:00",
+          "area": {
+            "id": 2002000,
+            "name": "Barishal"
+          },
+          "location": {
+            "id": 2002003,
+            "name": "Natun Bazar"
+          },
+          "category": {
+            "id": 194,
+            "name": "Auto Parts & Accessories"
+          },
+          "contact_card": {
+            "name": "SriKrishna Padmannagari",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "07243439065",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 8,787",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/jhjkjkhjkhjk-for-sale-barishal",
+          "account": {
+            "id": "566e9f983365620005000023",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 8,787",
+            "negotiable": "Negotiable"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 8,787",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 8,787",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 8,787",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "566e9f983365620005000028",
+          "slug": "alcatel-newmodel2015dec-original-for-sale-barishal",
+          "title": "Alcatel newmodel2015Dec Original",
+          "type": "for_sale",
+          "date": "2015-12-17T13:33:57+06:00",
+          "area": {
+            "id": 2002000,
+            "name": "Barishal"
+          },
+          "location": {
+            "id": 2002003,
+            "name": "Natun Bazar"
+          },
+          "category": {
+            "id": 230,
+            "name": "Mobile Phones"
+          },
+          "contact_card": {
+            "name": "SriKrishna Padmannagari",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "07243439065",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 6,999",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/alcatel-newmodel2015dec-original-for-sale-barishal",
+          "account": {
+            "id": "566e9f983365620005000023",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 6,999"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 6,999",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 6,999",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 6,999",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56618dcb303531000a000081",
+          "slug": "lkjaksjdklsa-for-sale-dhaka",
+          "title": "lkjaksjdklsa",
+          "type": "for_sale",
+          "date": "2015-12-17T13:33:44+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          },
+          "category": {
+            "id": 294,
+            "name": "Handicraft"
+          },
+          "contact_card": {
+            "name": "SriKrishna Padmannagari",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "098978978",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 8,989",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/lkjaksjdklsa-for-sale-dhaka",
+          "account": {
+            "id": "56618dcb303531000a00007c",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 8,989"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 8,989",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 8,989",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 8,989",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "566aabed336562000500001c",
+          "slug": "pics-new-for-sale-chittagong",
+          "title": "pics new",
+          "type": "for_sale",
+          "date": "2015-12-16T17:53:41+06:00",
+          "area": {
+            "id": 1295,
+            "name": "Chittagong"
+          },
+          "location": {
+            "id": 1296,
+            "name": "Agrabad"
+          },
+          "category": {
+            "id": 231,
+            "name": "Mobile Phone Accessories"
+          },
+          "contact_card": {
+            "name": "Developer",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0838383838",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 366",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/pics-new-for-sale-chittagong",
+          "account": {
+            "id": "56584993303531000a000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 366"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 366",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 366",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 366",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "567013fa3365620005000094",
+          "slug": "this-is-a-title-for-sale-khulna",
+          "title": "this is a title",
+          "type": "for_sale",
+          "date": "2015-12-16T12:46:07+06:00",
+          "area": {
+            "id": 1179,
+            "name": "Khulna"
+          },
+          "location": {
+            "id": 4048,
+            "name": "Batighata"
+          },
+          "category": {
+            "id": 579,
+            "name": "Other Home Items"
+          },
+          "contact_card": {
+            "name": "ove",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0234823473",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 2,435,343",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/this-is-a-title-for-sale-khulna",
+          "account": {
+            "id": "565830dd6636310009000041",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 2,435,343"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 2,435,343",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 2,435,343",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 2,435,343",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "567013403365620005000091",
+          "slug": "meh-meh-meh-m-for-sale-rajshahi",
+          "title": "meh meh meh m",
+          "type": "for_sale",
+          "date": "2015-12-16T12:37:46+06:00",
+          "area": {
+            "id": 2001000,
+            "name": "Rajshahi"
+          },
+          "location": {
+            "id": 2001004,
+            "name": "Kazla"
+          },
+          "category": {
+            "id": 390,
+            "name": "Other"
+          },
+          "contact_card": {
+            "name": "meh meh",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "02347324734",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 24,234,234",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/meh-meh-meh-m-for-sale-rajshahi",
+          "account": {
+            "id": "5670128e3365620005000089",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 24,234,234"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 24,234,234",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 24,234,234",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 24,234,234",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5670108b336562000500007e",
+          "slug": "acer-iphone-original-for-sale-dhaka",
+          "title": "Acer iphone Original",
+          "type": "for_sale",
+          "date": "2015-12-16T12:31:12+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          },
+          "category": {
+            "id": 230,
+            "name": "Mobile Phones"
+          },
+          "contact_card": {
+            "name": "asd asdasd asdasdsadasd",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0345634534",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 887,986",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/acer-iphone-original-for-sale-dhaka",
+          "account": {
+            "id": "565ec58b303531000a00003e",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 887,986"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 887,986",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 887,986",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 887,986",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "566ff1073365620005000067",
+          "slug": "new-thing-for-sale-dhaka",
+          "title": "new thing",
+          "type": "for_sale",
+          "date": "2015-12-16T10:09:38+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          },
+          "category": {
+            "id": 390,
+            "name": "Other"
+          },
+          "contact_card": {
+            "name": "kerstin",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0348737843",
+              "verified": false
+            }, {
+              "number": "0743854554",
+              "verified": false
+            }, {
+              "number": "03478843734",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 256,666",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/new-thing-for-sale-dhaka",
+          "account": {
+            "id": "565dc25a303531000a000036",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 256,666"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 256,666",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 256,666",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 256,666",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56694e283365620005000006",
+          "slug": "1234567890123456789012345678901234567890-for-sale-dhaka",
+          "title": "1234567890123456789012345678901234567890",
+          "type": "for_sale",
+          "date": "2015-12-10T16:04:24+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 4068,
+            "name": "Gulshan"
+          },
+          "category": {
+            "id": 851,
+            "name": "TVs"
+          },
+          "contact_card": {
+            "name": "ove",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "034583456546",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 645,643",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/1234567890123456789012345678901234567890-for-sale-dhaka",
+          "account": {
+            "id": "565830dd6636310009000041",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 645,643"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 645,643",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 645,643",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 645,643",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56618af9303531000a000079",
+          "slug": "test-md-for-sale-dhaka",
+          "title": "test md",
+          "type": "for_sale",
+          "date": "2015-12-04T18:45:45+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          },
+          "category": {
+            "id": 244,
+            "name": "Other Electronics"
+          },
+          "contact_card": {
+            "name": "hui",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "02015120501",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 11",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/test-md-for-sale-dhaka",
+          "account": {
+            "id": "565d7fd3303531000a000005",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 11"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 11",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 11",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 11",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56604a50303531000a000068",
+          "slug": "best-job-dhaka",
+          "title": "Best job",
+          "type": "for_sale",
+          "date": "2015-12-03T19:57:36+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          },
+          "category": {
+            "id": 349,
+            "name": "Job Openings"
+          },
+          "contact_card": {
+            "name": "david",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0707574614",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Part Time",
+          "status": "published",
+          "details": ["david"],
+          "url": "http://staging.bikroy.com/en/ad/best-job-dhaka",
+          "account": {
+            "id": "565830dc6636310009000023",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Salary",
+            "amount": "Tk 10,000 per year"
+          },
+          "job": {
+            "apply_via": {
+              "email": true
+            }
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Part Time",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Part Time",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Part Time",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "565efa1a303531000a000048",
+          "slug": "tjolahopp-for-sale-dhaka",
+          "title": "tjolahopp",
+          "type": "for_sale",
+          "date": "2015-12-02T20:05:43+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          },
+          "category": {
+            "id": 390,
+            "name": "Other"
+          },
+          "contact_card": {
+            "name": "kerstin",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0348737843",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 223,226",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/tjolahopp-for-sale-dhaka",
+          "account": {
+            "id": "565dc25a303531000a000036",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 223,226"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 223,226",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 223,226",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 223,226",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "565d9a48303531000a000022",
+          "slug": "bmw-320i-to-buy-dhaka",
+          "title": "BMW 320i",
+          "type": "to_buy",
+          "date": "2015-12-01T19:02:00+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          },
+          "category": {
+            "id": 193,
+            "name": "Cars"
+          },
+          "contact_card": {
+            "name": "Developer",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "070700007070",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/bmw-320i-to-buy-dhaka",
+          "account": {
+            "id": "56584993303531000a000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 1,234",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 1,234",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 1,234",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "565d96b7303531000a000017",
+          "slug": "bdjdjsjsjhsh-to-buy-dhaka",
+          "title": "bdjdjsjsjhsh",
+          "type": "to_buy",
+          "date": "2015-12-01T18:46:47+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          },
+          "category": {
+            "id": 851,
+            "name": "TVs"
+          },
+          "contact_card": {
+            "name": "Developer",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "070700007070",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/bdjdjsjsjhsh-to-buy-dhaka",
+          "account": {
+            "id": "56584993303531000a000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 1,234",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 1,234",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 1,234",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "565d7fd4303531000a00000a",
+          "slug": "keep-it-short-for-sale-dhaka",
+          "title": "Keep it short!",
+          "type": "for_sale",
+          "date": "2015-12-01T17:09:09+06:00",
+          "area": {
+            "id": 1211,
+            "name": "Dhaka"
+          },
+          "location": {
+            "id": 1215,
+            "name": "Badda"
+          },
+          "category": {
+            "id": 390,
+            "name": "Other"
+          },
+          "contact_card": {
+            "name": "hui",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "02015120101",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 1,000",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/keep-it-short-for-sale-dhaka",
+          "account": {
+            "id": "565d7fd3303531000a000005",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 1,000"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 1,000",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 1,000",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 1,000",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56574253303238000800000e",
+          "slug": "benq-eyi-original-for-sale-dhaka-division",
+          "title": "BenQ Eyi Original",
+          "type": "for_sale",
+          "date": "2015-11-26T23:33:07+06:00",
+          "area": {
+            "id": 1141,
+            "name": "Dhaka Division"
+          },
+          "location": {
+            "id": 1142,
+            "name": "Faridpur"
+          },
+          "category": {
+            "id": 230,
+            "name": "Mobile Phones"
+          },
+          "contact_card": {
+            "name": "prathibha",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "011942314567890",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 368",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/benq-eyi-original-for-sale-dhaka-division",
+          "account": {
+            "id": "5657389e3032380008000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 368"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 368",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 368",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 368",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56574217303238000800000b",
+          "slug": "china-mobile-rui-original-for-sale-dhaka-division",
+          "title": "China Mobile Rui Original",
+          "type": "for_sale",
+          "date": "2015-11-26T23:32:08+06:00",
+          "area": {
+            "id": 1141,
+            "name": "Dhaka Division"
+          },
+          "location": {
+            "id": 1142,
+            "name": "Faridpur"
+          },
+          "category": {
+            "id": 230,
+            "name": "Mobile Phones"
+          },
+          "contact_card": {
+            "name": "prathibha",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "011942314567890",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 257",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/china-mobile-rui-original-for-sale-dhaka-division",
+          "account": {
+            "id": "5657389e3032380008000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 257"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 257",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 257",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 257",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "565738e13032380008000008",
+          "slug": "blackberry-sdfg-original-for-sale-dhaka-division",
+          "title": "Blackberry sdfg Original",
+          "type": "for_sale",
+          "date": "2015-11-26T22:52:50+06:00",
+          "area": {
+            "id": 1141,
+            "name": "Dhaka Division"
+          },
+          "location": {
+            "id": 1142,
+            "name": "Faridpur"
+          },
+          "category": {
+            "id": 230,
+            "name": "Mobile Phones"
+          },
+          "contact_card": {
+            "name": "prathibha",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0119412345678",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 23",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/blackberry-sdfg-original-for-sale-dhaka-division",
+          "account": {
+            "id": "5657389e3032380008000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 23"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 23",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 23",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 23",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5657389e3032380008000005",
+          "slug": "china-mobile-alskdnfalk-original-for-sale-dhaka-division",
+          "title": "China Mobile alskdnfalk Original",
+          "type": "for_sale",
+          "date": "2015-11-26T22:51:43+06:00",
+          "area": {
+            "id": 1141,
+            "name": "Dhaka Division"
+          },
+          "location": {
+            "id": 1142,
+            "name": "Faridpur"
+          },
+          "category": {
+            "id": 230,
+            "name": "Mobile Phones"
+          },
+          "contact_card": {
+            "name": "prathibha",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0119412345678",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "Tk 1,234",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/en/ad/china-mobile-alskdnfalk-original-for-sale-dhaka-division",
+          "account": {
+            "id": "5657389e3032380008000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "Price",
+            "amount": "Tk 1,234"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "Tk 1,234",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "Tk 1,234",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "Tk 1,234",
+            "details": [ ]
+            }
+          }
+        }],
+        "top_ads": [],
+        "enhancements": {
+          "cars": false,
+          "properties": false,
+          "jobs": false
+        }
+      },
+    "banners": {
+        "android": {
+          "inline": {
+            "slot": "/134461134/Ikman_ENSITA_Android_SERP_320x100_Firstlistingpage_All",
+            "sizes": [ { "width": 320, "height": 100 } ]
+          }
+        }
+      }
+    }
+  }
+}

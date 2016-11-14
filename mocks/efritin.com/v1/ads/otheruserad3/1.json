@@ -1,0 +1,91 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Identifier": "2f85d4fc-339e-455b-8990-8029f3d90f86",
+      "Application-Name": "android",
+      "Categories-Version": "8c92b8560cbc5238b64f9ece384105bf",
+      "Content-Type": "application/json",
+      "Locations-Version": "237c7035db9fef6a2538855b6155bf36"
+    },
+    "parameters": {
+      "similar_ads": 5
+    }
+  },
+  "response": {
+    "schema": "responses/get_ad.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "ad": {
+        "id": "otheruserad3",
+        "slug": "otheruserad3",
+        "description": "Job Description: \n\nSweep, scrub, mop and polish floors\nVacuum clean carpets, rugs and draperies\nShampoo carpets, rugs and upholstery\nDust and polish furniture and fittings\nClean metal fixtures and fittings\nEmpty and clean trash containers\nDispose of trash in a sanitary manner\nClean wash basins, mirrors, tubs and showers\nWipe down glass surfaces\nMake up beds and change linens as required\nTidy up rooms\nWash windows as scheduled\nSort, wash, load and unload laundry iron and press clothing and linen\nSort, fold and put away clean laundry\nOperate mechanized cleaning equipment\nMaintain all cleaning equipment and materials in a safe and sanitary working condition\nMonitor and report necessary domestic repairs and replacements \n\nQualifications: \nMinimum of WASSCE\nMale or female can apply\n\nApplication Deadline\n30th March 2016",
+        "title": "Other User Job Ad",
+        "type": "for_sale",
+        "date": "2016-02-19T15:40:59+01:00",
+        "area": {
+          "id": 5001000,
+          "name": "Lagos"
+        },
+        "location": {
+          "id": 5001001,
+          "name": "Agbado/Oke-Odo"
+        },
+        "category": {
+          "id": 5120000,
+          "name": "Job Vacancies"
+        },
+        "contact_card": {
+          "name": "Other User",
+          "email": {
+            "verified": false
+          },
+          "phone_numbers": [],
+          "opt_out": true,
+          "chat_enabled": false
+        },
+        "info": "Full Time",
+        "status": "published",
+        "details": ["Other User job ad"],
+        "url": "http://efritin.com/en/ad/testjobad",
+        "account": {
+          "id": "otheruser",
+          "traits": {}
+        },
+        "properties": [{
+          "label": "Industry",
+          "value": "House Help"
+        }, {
+          "label": "Company website",
+          "value": "http://www.amantoventures.com"
+        }, {
+          "label": "Job type",
+          "value": "Full Time"
+        }],
+        "promotions": {
+          "top_ad": false,
+          "bump_up": false
+        },
+        "money": {
+          "label": "Salary",
+          "amount": "₦ 120,000 per month",
+          "negotiable": "Negotiable"
+        },
+        "job": {
+          "apply_via": {
+            "email": true
+          }
+        },
+        "features": {
+          "buy_now": false
+        }
+      },
+      "similar_ads": []
+    }
+  }
+}

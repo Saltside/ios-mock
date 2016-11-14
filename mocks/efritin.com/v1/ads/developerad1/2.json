@@ -1,0 +1,105 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Identifier": "2f85d4fc-339e-455b-8990-8029f3d90f86",
+      "Application-Name": "android",
+      "Categories-Version": "8c92b8560cbc5238b64f9ece384105bf",
+      "Content-Type": "application/json",
+      "Locations-Version": "237c7035db9fef6a2538855b6155bf36"
+    },
+    "parameters": {
+      "similar_ads": 5,
+      "banners": true
+    }
+  },
+  "response": {
+    "schema": "responses/get_ad.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "ad": {
+        "id": "developerad1",
+        "slug": "developerad1",
+        "title": "Developer Ad Phone and email",
+        "description": "A new Nokia C6-01 for sale at an affordable price.\n\nCall me if you want to buy",
+        "type": "for_sale",
+        "date": "2016-02-19T07:37:44+00:00",
+        "area": {
+          "id": 5001000,
+          "name": "Lagos"
+        },
+        "location": {
+          "id": 5001001,
+          "name": "Agbado/Oke-Odo"
+        },
+        "category": {
+          "id": 5030100,
+          "name": "Mobile Phones"
+        },
+        "contact_card": {
+          "name": "Developer",
+          "email": {
+            "verified": false
+          },
+          "phone_numbers": [{
+            "number": "03696794047",
+            "verified": false
+          }],
+          "opt_out": true,
+          "chat_enabled": true
+        },
+        "info": "₦ 571,199",
+        "status": "published",
+        "details": [],
+        "url": "http://efritin.com/en/ad/test",
+        "account": {
+          "id": "developer",
+          "traits": {}
+        },
+        "properties": [{
+          "label": "Brand",
+          "value": "Nokia"
+        }, {
+          "label": "Features",
+          "value": "Camera, 3G, Touch screen"
+        }, {
+          "label": "Model",
+          "value": "C6-01"
+        }, {
+          "label": "Authenticity",
+          "value": "Original"
+        }],
+        "promotions": {
+          "top_ad": false,
+          "bump_up": false
+        },
+        "money": {
+          "label": "Price",
+          "amount": "₦ 571,199"
+        },
+        "features": {
+          "buy_now": false
+        }
+      },
+      "similar_ads": [],
+      "banners": {
+        "android": {
+          "bottom": {
+            "slot": "/134461134/Bikroy_EN_Android_Detailed_300x250_Other_All",
+            "sizes": [
+              {
+                "width": 300,
+                "height": 250
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

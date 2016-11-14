@@ -1,0 +1,22 @@
+{
+  "request": {
+    "schema": "requests/verify_phone_number.json",
+    "method": "POST",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "phone": "0500444441",
+      "verification_code": "2222"
+    }
+  },
+  "response": {
+    "code": 400,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "schema": "requests/create_session.json",
+    "method": "POST",
+    "headers": {
+      "Accept-Language": "en_LK",
+      "Application-Identifier": "32e663d2-c206-4043-b9e6-2c441c618e6a",
+      "Application-Name": "android",
+      "Categories-Version": "aed65a77b1d2448f077c69a5e3726427",
+      "Content-Type": "application/json",
+      "Locations-Version": "cc3438ad70faa24cbc008fc6534f78a0"
+    },
+    "body": {
+      "session": {
+        "identifier": "developer@saltside.se",
+        "password": "kanelbulle"
+      }
+    }
+  },
+  "response": {
+    "schema": "responses/create_session.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "session": {
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50IjoiNTZhMGQyNTYzMzM0MzEwMDA1MDAwMmYwIn0.Yao7fZAD83FeDcjkLZT6xLvq6zVWwxgI8-HKDP26Xts"
+      },
+      "account": {
+        "id": "56a0d25633343100050002f0",
+        "profile": {
+          "name": "Developer",
+          "type": "private",
+          "opt_out": true,
+          "location": {
+            "id": 1514,
+            "name": "Colombo 3"
+          }
+        },
+        "recent_phone_numbers": [{
+          "number": "087456454",
+          "verified": false
+        }],
+        "login": {
+          "email": "developer@saltside.se"
+        },
+        "pick_up_code": "943"
+      }
+    }
+  }
+}

@@ -1,0 +1,1672 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "si_LK",
+      "Application-Identifier": "32e663d2-c206-4043-b9e6-2c441c618e6a",
+      "Application-Name": "android",
+      "Categories-Version": "aed65a77b1d2448f077c69a5e3726427",
+      "Content-Type": "application/json",
+      "Locations-Version": "cc3438ad70faa24cbc008fc6534f78a0"
+    },
+    "parameters": {
+      "top_ads": 1,
+      "banners": true
+    }
+  },
+  "response": {
+    "schema": "responses/serp.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "si",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "pagination": {
+        "page": 1,
+        "per_page": 25,
+        "total": 121,
+        "pages": 5,
+        "next_page_url": "http://staging.api.ikman.lk/v1/serp?top_ads=1&banners=true&page=2&next_page_token=1453382009",
+        "next_page_token": "1453382009"
+      },
+      "serp": {
+        "categories": [{
+          "id": 428,
+          "name": "ඉලෙක්ට්‍රොනික උපකරණ",
+          "count": 108
+        }, {
+          "id": 444,
+          "name": "නිවාස සහ උද්‍යාන",
+          "count": 6
+        }, {
+          "id": 503,
+          "name": "විනෝදාංශ, ක්‍රීඩා සහ ළමා අයිතම",
+          "count": 3
+        }, {
+          "id": 578,
+          "name": "වෙනත්",
+          "count": 3
+        }, {
+          "id": 391,
+          "name": "මෝටර් රථ සහ අනෙකුත් වාහන",
+          "count": 1
+        }],
+        "locations": [{
+          "id": 1577,
+          "name": "ගම්පහ",
+          "count": 90
+        }, {
+          "id": 1636,
+          "name": "නුවර",
+          "count": 9
+        }, {
+          "id": 1771,
+          "name": "පුත්තලම",
+          "count": 9
+        }, {
+          "id": 1806,
+          "name": "ත්‍රිකුණාමලය",
+          "count": 6
+        }, {
+          "id": 1506,
+          "name": "කොළඹ",
+          "count": 5
+        }, {
+          "id": 1475,
+          "name": "බදුල්ල",
+          "count": 2
+        }],
+        "types": [{
+          "key": "for_sale",
+          "count": 119
+        }, {
+          "key": "to_buy",
+          "count": 2
+        }],
+        "sort_options": ["price", "date"],
+        "sort_option": "date",
+        "results": [{
+          "id": "569cc940333431000500019a",
+          "slug": "voucher-counter-3-for-sale-kandy",
+          "title": "voucher counter 3",
+          "type": "for_sale",
+          "date": "2016-01-21T14:48:34+05:30",
+          "area": {
+            "id": 1636,
+            "name": "නුවර"
+          },
+          "location": {
+            "id": 2584,
+            "name": "ගම්පොල"
+          },
+          "category": {
+            "id": 528,
+            "name": "චාරිකා, උත්සව සහ ප්‍රවේශපත්"
+          },
+          "contact_card": {
+            "name": "olga bolga",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "034546435234",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 64,535,434",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/voucher-counter-3-for-sale-kandy",
+          "account": {
+            "id": "569cc853333431000500018f",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 64,535,434"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 64,535,434",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 64,535,434",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 64,535,434",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56a0d2b933343100050002f5",
+          "slug": "sfdaskhflkjhadfljh-to-buy-colombo",
+          "title": "sfdaskhflkjhadfljh",
+          "type": "to_buy",
+          "date": "2016-01-21T18:14:41+05:30",
+          "area": {
+            "id": 1506,
+            "name": "කොළඹ"
+          },
+          "location": {
+            "id": 1514,
+            "name": "කොළඹ 3"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "Developer",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "087456454",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/sfdaskhflkjhadfljh-to-buy-colombo",
+          "account": {
+            "id": "56a0d25633343100050002f0",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 64,535,434",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 64,535,434",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 64,535,434",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56a0d93633343100050002f8",
+          "slug": "bmw-320i-to-buy-colombo",
+          "title": "BMW 320i",
+          "type": "to_buy",
+          "date": "2016-01-21T18:42:23+05:30",
+          "area": {
+            "id": 1506,
+            "name": "කොළඹ"
+          },
+          "location": {
+            "id": 1514,
+            "name": "කොළඹ 3"
+          },
+          "category": {
+            "id": 392,
+            "name": "මෝටර් රථ"
+          },
+          "contact_card": {
+            "name": "Developer",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "087456454",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bmw-320i-to-buy-colombo",
+          "account": {
+            "id": "56a0d25633343100050002f0",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 64,535,434",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 64,535,434",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 64,535,434",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569cc8a03334310005000197",
+          "slug": "voucher-counter-2-for-sale-kandy",
+          "title": "voucher counter 2",
+          "type": "for_sale",
+          "date": "2016-01-21T14:48:30+05:30",
+          "area": {
+            "id": 1636,
+            "name": "නුවර"
+          },
+          "location": {
+            "id": 2584,
+            "name": "ගම්පොල"
+          },
+          "category": {
+            "id": 463,
+            "name": "ගේදොර උපකරණ"
+          },
+          "contact_card": {
+            "name": "olga bolga",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "034546435234",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 25,567",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/voucher-counter-2-for-sale-kandy",
+          "account": {
+            "id": "569cc853333431000500018f",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 25,567"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 25,567",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 25,567",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 25,567",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569cc8533334310005000194",
+          "slug": "voucher-counter-1-for-sale-kandy",
+          "title": "voucher counter 1",
+          "type": "for_sale",
+          "date": "2016-01-21T14:48:24+05:30",
+          "area": {
+            "id": 1636,
+            "name": "නුවර"
+          },
+          "location": {
+            "id": 2584,
+            "name": "ගම්පොල"
+          },
+          "category": {
+            "id": 441,
+            "name": "විඩීයෝ ක්‍රීඩා සහ කොන්සෝල්"
+          },
+          "contact_card": {
+            "name": "olga bolga",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "034546435234",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 2,341",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/voucher-counter-1-for-sale-kandy",
+          "account": {
+            "id": "569cc853333431000500018f",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 2,341"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 2,341",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 2,341",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 2,341",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56a0669f33343100050002ed",
+          "slug": "test-ad-for-ip-for-sale-colombo",
+          "title": "Test Ad for IP",
+          "type": "for_sale",
+          "date": "2016-01-21T10:35:26+05:30",
+          "area": {
+            "id": 1506,
+            "name": "කොළඹ"
+          },
+          "location": {
+            "id": 1514,
+            "name": "කොළඹ 3"
+          },
+          "category": {
+            "id": 578,
+            "name": "වෙනත්"
+          },
+          "contact_card": {
+            "name": "Sri",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "07897678637",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 999",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/test-ad-for-ip-for-sale-colombo",
+          "account": {
+            "id": "5667be7b393938000a000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 999"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 999",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 999",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 999",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e58de33343100050002ea",
+          "slug": "bump-the-voucher-4-for-sale-kandy-1",
+          "title": "Bump the voucher! 4",
+          "type": "for_sale",
+          "date": "2016-01-19T21:10:14+05:30",
+          "area": {
+            "id": 1636,
+            "name": "නුවර"
+          },
+          "location": {
+            "id": 2570,
+            "name": "දිගන"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "03141073063",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 637,678",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-4-for-sale-kandy-1",
+          "account": {
+            "id": "569e58de33343100050002e5",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 637,678"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 637,678",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 637,678",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 637,678",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e58b733343100050002e2",
+          "slug": "bump-the-voucher-6-for-sale-kandy-2",
+          "title": "Bump the voucher! 6",
+          "type": "for_sale",
+          "date": "2016-01-19T21:09:36+05:30",
+          "area": {
+            "id": 1636,
+            "name": "නුවර"
+          },
+          "location": {
+            "id": 2570,
+            "name": "දිගන"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "09207529284",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 407,288",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-6-for-sale-kandy-2",
+          "account": {
+            "id": "569e58b733343100050002dd",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 407,288"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 407,288",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 407,288",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 407,288",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e589033343100050002da",
+          "slug": "bump-the-voucher-6-for-sale-kandy-1",
+          "title": "Bump the voucher! 6",
+          "type": "for_sale",
+          "date": "2016-01-19T21:08:56+05:30",
+          "area": {
+            "id": 1636,
+            "name": "නුවර"
+          },
+          "location": {
+            "id": 2570,
+            "name": "දිගන"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "05535794105",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 573,539",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-6-for-sale-kandy-1",
+          "account": {
+            "id": "569e589033343100050002d5",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 573,539"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 573,539",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 573,539",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 573,539",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e586933343100050002d2",
+          "slug": "bump-the-voucher-5-for-sale-kandy",
+          "title": "Bump the voucher! 5",
+          "type": "for_sale",
+          "date": "2016-01-19T21:08:18+05:30",
+          "area": {
+            "id": 1636,
+            "name": "නුවර"
+          },
+          "location": {
+            "id": 2570,
+            "name": "දිගන"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "08632474390",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 53,680",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-5-for-sale-kandy",
+          "account": {
+            "id": "569e586933343100050002cd",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 53,680"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 53,680",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 53,680",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 53,680",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e584033343100050002ca",
+          "slug": "bump-the-voucher-4-for-sale-kandy",
+          "title": "Bump the voucher! 4",
+          "type": "for_sale",
+          "date": "2016-01-19T21:07:36+05:30",
+          "area": {
+            "id": 1636,
+            "name": "නුවර"
+          },
+          "location": {
+            "id": 2570,
+            "name": "දිගන"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "09666214003",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 613,157",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-4-for-sale-kandy",
+          "account": {
+            "id": "569e583f33343100050002c5",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 613,157"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 613,157",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 613,157",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 613,157",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e581733343100050002c2",
+          "slug": "bump-the-voucher-6-for-sale-kandy",
+          "title": "Bump the voucher! 6",
+          "type": "for_sale",
+          "date": "2016-01-19T21:06:55+05:30",
+          "area": {
+            "id": 1636,
+            "name": "නුවර"
+          },
+          "location": {
+            "id": 2570,
+            "name": "දිගන"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "05457559961",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 303,315",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-6-for-sale-kandy",
+          "account": {
+            "id": "569e581733343100050002bd",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 303,315"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 303,315",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 303,315",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 303,315",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e30f233343100050002ba",
+          "slug": "bump-the-voucher-5-for-sale-gampaha-22",
+          "title": "Bump the voucher! 5",
+          "type": "for_sale",
+          "date": "2016-01-19T18:19:55+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "07999647723",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 283,784",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-5-for-sale-gampaha-22",
+          "account": {
+            "id": "569e30f233343100050002b5",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 283,784"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 283,784",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 283,784",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 283,784",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e30b633343100050002b2",
+          "slug": "bump-the-voucher-6-for-sale-gampaha-16",
+          "title": "Bump the voucher! 6",
+          "type": "for_sale",
+          "date": "2016-01-19T18:18:54+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0123159804",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 277,212",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-6-for-sale-gampaha-16",
+          "account": {
+            "id": "569e30b633343100050002ad",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 277,212"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 277,212",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 277,212",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 277,212",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e307933343100050002aa",
+          "slug": "bump-the-voucher-5-for-sale-gampaha-21",
+          "title": "Bump the voucher! 5",
+          "type": "for_sale",
+          "date": "2016-01-19T18:17:54+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "06086957011",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 299,341",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-5-for-sale-gampaha-21",
+          "account": {
+            "id": "569e307933343100050002a5",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 299,341"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 299,341",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 299,341",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 299,341",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e303d33343100050002a2",
+          "slug": "bump-the-voucher-6-for-sale-gampaha-15",
+          "title": "Bump the voucher! 6",
+          "type": "for_sale",
+          "date": "2016-01-19T18:16:53+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "09457835055",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 348,245",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-6-for-sale-gampaha-15",
+          "account": {
+            "id": "569e303d333431000500029d",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 348,245"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 348,245",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 348,245",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 348,245",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e2ecd333431000500029a",
+          "slug": "bump-the-voucher-6-for-sale-gampaha-14",
+          "title": "Bump the voucher! 6",
+          "type": "for_sale",
+          "date": "2016-01-19T18:10:45+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "03235810929",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 235,670",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-6-for-sale-gampaha-14",
+          "account": {
+            "id": "569e2ecd3334310005000295",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 235,670"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 235,670",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 235,670",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 235,670",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e2cb33334310005000292",
+          "slug": "bump-the-voucher-5-for-sale-gampaha-20",
+          "title": "Bump the voucher! 5",
+          "type": "for_sale",
+          "date": "2016-01-19T18:01:47+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "01008480181",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 235,482",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-5-for-sale-gampaha-20",
+          "account": {
+            "id": "569e2cb3333431000500028d",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 235,482"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 235,482",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 235,482",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 235,482",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e2c77333431000500028a",
+          "slug": "bump-the-voucher-6-for-sale-gampaha-13",
+          "title": "Bump the voucher! 6",
+          "type": "for_sale",
+          "date": "2016-01-19T18:00:47+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "09999847274",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 194,619",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-6-for-sale-gampaha-13",
+          "account": {
+            "id": "569e2c773334310005000285",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 194,619"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 194,619",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 194,619",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 194,619",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e2c3a3334310005000282",
+          "slug": "bump-the-voucher-5-for-sale-gampaha-19",
+          "title": "Bump the voucher! 5",
+          "type": "for_sale",
+          "date": "2016-01-19T17:59:47+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "01619023491",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 577,653",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-5-for-sale-gampaha-19",
+          "account": {
+            "id": "569e2c3a333431000500027d",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 577,653"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 577,653",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 577,653",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 577,653",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e2bf6333431000500027a",
+          "slug": "bump-the-voucher-6-for-sale-gampaha-12",
+          "title": "Bump the voucher! 6",
+          "type": "for_sale",
+          "date": "2016-01-19T17:58:39+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "04846092165",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 810,191",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-6-for-sale-gampaha-12",
+          "account": {
+            "id": "569e2bf63334310005000275",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 810,191"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 810,191",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 810,191",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 810,191",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e2bbc3334310005000272",
+          "slug": "bump-the-voucher-5-for-sale-gampaha-18",
+          "title": "Bump the voucher! 5",
+          "type": "for_sale",
+          "date": "2016-01-19T17:57:40+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "04250169819",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 655,706",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-5-for-sale-gampaha-18",
+          "account": {
+            "id": "569e2bbc333431000500026d",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 655,706"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 655,706",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 655,706",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 655,706",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e2b80333431000500026a",
+          "slug": "bump-the-voucher-5-for-sale-gampaha-17",
+          "title": "Bump the voucher! 5",
+          "type": "for_sale",
+          "date": "2016-01-19T17:56:41+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "07516352086",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 913,327",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-5-for-sale-gampaha-17",
+          "account": {
+            "id": "569e2b803334310005000265",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 913,327"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 913,327",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 913,327",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 913,327",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e2b433334310005000262",
+          "slug": "bump-the-voucher-5-for-sale-gampaha-16",
+          "title": "Bump the voucher! 5",
+          "type": "for_sale",
+          "date": "2016-01-19T17:55:39+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "07187403109",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 89,676",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-5-for-sale-gampaha-16",
+          "account": {
+            "id": "569e2b43333431000500025d",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 89,676"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 89,676",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 89,676",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 89,676",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "569e2b08333431000500025a",
+          "slug": "bump-the-voucher-5-for-sale-gampaha-15",
+          "title": "Bump the voucher! 5",
+          "type": "for_sale",
+          "date": "2016-01-19T17:54:40+05:30",
+          "area": {
+            "id": 1577,
+            "name": "ගම්පහ"
+          },
+          "location": {
+            "id": 1583,
+            "name": "ජා-එල"
+          },
+          "category": {
+            "id": 430,
+            "name": "ජංගම දුරකථන උපාංග"
+          },
+          "contact_card": {
+            "name": "OMG 9",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "04511749791",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "රු 695,964",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.ikman.lk/si/ad/bump-the-voucher-5-for-sale-gampaha-15",
+          "account": {
+            "id": "569e2b083334310005000255",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "මිල",
+            "amount": "රු 695,964"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "රු 695,964",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "රු 695,964",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "රු 695,964",
+            "details": [ ]
+            }
+          }
+        }],
+        "top_ads": [],
+        "enhancements": {
+          "cars": false,
+          "properties": false,
+          "jobs": false
+        }
+      },
+      "banners": {
+        "android": {
+          "inline": {
+            "slot": "/134461134/Ikman_ENSITA_Android_SERP_320x100_Firstlistingpage_All",
+            "sizes": [ { "width": 320, "height": 100 } ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "schema": "requests/send_reply.json",
+    "method": "POST",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Identifier": "2f85d4fc-339e-455b-8990-8029f3d90f86",
+      "Application-Name": "android",
+      "Categories-Version": "8c92b8560cbc5238b64f9ece384105bf",
+      "Content-Type": "application/json",
+      "Locations-Version": "237c7035db9fef6a2538855b6155bf36"
+    },
+    "body": {
+      "reply": {
+        "email": "developer@saltside.se",
+        "message": "This is a test by espresso!",
+        "name": "Developer Test"
+      }
+    }
+  },
+  "response": {
+    "code": 202,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "text/html;charset=utf-8",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1; mode=block"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "si_LK",
+      "Application-Identifier": "76db3ecb-4a7c-4c51-a9a9-009a7258607a",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    }
+  },
+  "response": {
+    "schema": "responses/get_memberships.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "si",
+      "Content-Type": "application/json",
+      "Version": "dcb0b33e6e898b66ba9b568a66b9c49c"
+    },
+    "body": {
+      "memberships": [{
+        "key": "cars_vehicles",
+        "name": "මෝටර් රථ සහ අනෙකුත් වාහන",
+        "levels": [{
+          "key": "free",
+          "name": "නොමිලේ",
+          "limit": {
+            "label": "2",
+            "value": 2
+          }
+        }, {
+          "key": "plus",
+          "name": "බිස්නස් ප්ලස් ",
+          "limit": {
+            "label": "20",
+            "value": 20
+          }
+        }, {
+          "key": "premium",
+          "name": "බිස්නස් ප්‍රිමියම් "
+        }],
+        "category_ids": [392, 403, 917, 925]
+      }, {
+        "key": "three_wheelers_motorbikes",
+        "name": "ත්‍රිරෝද රථ සහ මෝටර් සයිකල් ",
+        "levels": [{
+          "key": "free",
+          "name": "නොමිලේ",
+          "limit": {
+            "label": "2",
+            "value": 2
+          }
+        }, {
+          "key": "plus",
+          "name": "බිස්නස් ප්ලස් ",
+          "limit": {
+            "label": "15",
+            "value": 15
+          }
+        }, {
+          "key": "premium",
+          "name": "බිස්නස් ප්‍රිමියම් "
+        }],
+        "category_ids": [402, 911, 603]
+      }]
+    }
+  }
+}

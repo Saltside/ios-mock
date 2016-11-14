@@ -1,0 +1,25 @@
+{
+  "request": {
+    "schema": "requests/chat_authentication.json",
+    "method": "POST",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "nonce": "random"
+    }
+  },
+  "response": {
+    "schema": "responses/chat_authentication.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "identity_token": "token"
+    }
+  }
+}

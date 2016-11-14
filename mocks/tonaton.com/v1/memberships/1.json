@@ -1,0 +1,75 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "en_GH",
+      "Application-Identifier": "76db3ecb-4a7c-4c51-a9a9-009a7258607a",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    }
+  },
+  "response": {
+    "schema": "responses/get_memberships.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json",
+      "Version": "e2a6bf4ab31247e9091d596aa9020b83"
+    },
+    "body": {
+      "memberships": [{
+        "key": "cars_vehicles",
+        "name": "Cars & Vehicles",
+        "levels": [{
+          "key": "free",
+          "name": "Free",
+          "limit": {
+            "label": "6",
+            "value": 6
+          }
+        }, {
+          "key": "plus",
+          "name": "Business Plus",
+          "limit": {
+            "label": "40",
+            "value": 40
+          }
+        }, {
+          "key": "premium",
+          "name": "Business Premium",
+          "limit": {
+            "label": "100",
+            "value": 100
+          }
+        }],
+        "category_ids": [5010100, 5010400, 5010800, 5010300, 5010600, 5010500]
+      }, {
+        "key": "properties",
+        "name": "Properties",
+        "levels": [{
+          "key": "free",
+          "name": "Free",
+          "limit": {
+            "label": "6",
+            "value": 6
+          }
+        }, {
+          "key": "plus",
+          "name": "Business Plus",
+          "limit": {
+            "label": "30",
+            "value": 30
+          }
+        }, {
+          "key": "premium",
+          "name": "Business Premium",
+          "limit": {
+            "label": "100",
+            "value": 100
+          }
+        }],
+        "category_ids": [5020200, 5020100, 5020300, 5020400, 5020500]
+      }]
+    }
+  }
+}

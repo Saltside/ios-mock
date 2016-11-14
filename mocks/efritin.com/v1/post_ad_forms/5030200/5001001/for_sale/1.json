@@ -1,0 +1,103 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Identifier": "2f85d4fc-339e-455b-8990-8029f3d90f86",
+      "Application-Name": "android",
+      "Categories-Version": "8c92b8560cbc5238b64f9ece384105bf",
+      "Content-Type": "application/json",
+      "Locations-Version": "237c7035db9fef6a2538855b6155bf36"
+    }
+  },
+  "response": {
+    "schema": "responses/get_post_ad_form_with_location.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json",
+      "Version": "bc244514cf576ecf341ea19f5c94f8c3"
+    },
+    "body": {
+      "post_ad_form": {
+        "name": "for_sale_electronics_ads",
+        "enhancements": {
+          "max_images": 5,
+          "cars": false,
+          "jobs": false,
+          "properties": false
+        },
+        "fields": [
+          {
+            "key": "condition",
+            "type": "enum",
+            "data": {
+              "value": "used"
+            },
+            "label": "Condition",
+            "required": true,
+            "values": [
+              {
+                "key": "used",
+                "label": "Used"
+              },
+              {
+                "key": "new",
+                "label": "New"
+              }
+            ]
+          },
+          {
+            "key": "title",
+            "type": "title",
+            "data": {},
+            "label": "Title",
+            "tooltip": "Keep it short!",
+            "required": true,
+            "minimum_length": 5,
+            "maximum_length": 40
+          },
+          {
+            "key": "description",
+            "type": "description",
+            "data": {},
+            "label": "Description",
+            "tooltip": "More details = more interested buyers!",
+            "required": true,
+            "minimum_length": 30,
+            "maximum_length": 5000
+          },
+          {
+            "key": "price",
+            "type": "money",
+            "data": {
+              "currency": "NGN"
+            },
+            "label": "Price",
+            "tooltip": "Pick a good price.",
+            "required": true,
+            "currencies": [
+              {
+                "key": "NGN",
+                "code": "NGN",
+                "label": "₦"
+              }
+            ],
+            "units": [],
+            "negotiable": "Negotiable",
+            "minimum": 1,
+            "maximum": 9999999999999
+          }
+        ],
+        "features": {
+          "buy_now": true
+        },
+        "buy_now": {
+          "min_price": 5000,
+          "translated_min_price": "5000",
+          "currency": "Rs."
+        }
+      }
+    }
+  }
+}

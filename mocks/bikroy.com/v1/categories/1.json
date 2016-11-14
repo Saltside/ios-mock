@@ -1,0 +1,795 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "bn_BD",
+      "Application-Identifier": "76db3ecb-4a7c-4c51-a9a9-009a7258607a",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    }
+  },
+  "response": {
+    "schema": "responses/get_categories.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "bn",
+      "Content-Type": "application/json",
+      "Version": "c879bd58dcea3bd8a19c8aa1377ebdd6"
+    },
+    "body": {
+      "categories": [{
+        "id": 229,
+        "children": [
+          230,
+          231,
+          893,
+          897,
+          851,
+          850,
+          855,
+          846,
+          244
+        ],
+        "name": "ইলেকট্রনিক্স",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "electronics"
+      }, {
+        "id": 230,
+        "children": [],
+        "name": "মোবাইল ফোন",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 231,
+        "children": [],
+        "name": "মোবাইল ফোন এক্সেসরিজ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 893,
+        "children": [],
+        "name": "কম্পিউটার এবং ট্যাবলেট",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 897,
+        "children": [],
+        "name": "কম্পিউটার এক্সেসরিজ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 851,
+        "children": [],
+        "name": "টিভি",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 850,
+        "children": [],
+        "name": "টিভি ও ভিডিওর আনুষঙ্গিক যন্ত্রপাতি",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 855,
+        "children": [],
+        "name": "ক্যামেরা ও ভিডিও ক্যামেরা",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 846,
+        "children": [],
+        "name": "অডিও এবং এমপিথ্রি",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 244,
+        "children": [],
+        "name": "অন্যান্য ইলেকট্রনিক্স",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 192,
+        "children": [
+          193,
+          203,
+          908,
+          204,
+          915,
+          194,
+          924
+        ],
+        "name": "গাড়ি ও অন্যান্য যানবাহন",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic",
+        "type": "vehicles"
+      }, {
+        "id": 193,
+        "children": [],
+        "name": "গাড়ি",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+          ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 203,
+        "children": [],
+        "name": "মোটরবাইক ও স্কুটার",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+          ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 908,
+        "children": [],
+        "name": "সিএনজি ও সাইকেল",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 204,
+        "children": [],
+        "name": "বাস, ট্রাক ও ভ্যান",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 915,
+        "children": [],
+        "name": "ট্র্যাক্টর এবং হেভি-ডিউটি",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 194,
+        "children": [],
+        "name": "অটো পার্টস ও এক্সেসরিজ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 924,
+        "children": [],
+        "name": "নৌকা ও জল পরিবহন",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 210,
+        "children": [
+          211,
+          212,
+          218,
+          217,
+          213,
+          223
+        ],
+        "name": "প্রপার্টি",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic",
+        "type": "property"
+      }, {
+        "id": 211,
+        "children": [],
+        "name": "ফ্ল্যাট ও এ্যাপার্টমেন্ট",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+          ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 212,
+        "children": [],
+        "name": "বাড়ি",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+          ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 218,
+        "children": [],
+        "name": "প্লট ও জমি",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 217,
+        "children": [],
+        "name": "রুম",
+        "ad_types": ["for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+          ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 213,
+        "children": [],
+        "name": "গ্যারেজ",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 223,
+        "children": [],
+        "name": "কমার্শিয়াল স্পেস",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+          ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 349,
+        "children": [],
+        "name": "চাকরির বিজ্ঞাপন",
+        "ad_types": ["for_sale"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic",
+        "type": "jobs"
+      }, {
+        "id": 245,
+        "children": [
+          246,
+          263,
+          256,
+          579
+        ],
+        "name": "ঘর ও বাগানের সামগ্রী",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic",
+        "type": "home"
+      }, {
+        "id": 246,
+        "children": [],
+        "name": "আসবাবপত্র",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 263,
+        "children": [],
+        "name": "ঘরের দ্রব্যসামগ্রী",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 256,
+        "children": [],
+        "name": "বিদ্যুৎ, এসি, বাথরুম এবং বাগান",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 579,
+        "children": [],
+        "name": "ঘরের অন্যান্য জিনিসপত্র",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 273,
+        "children": [
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          288,
+          298
+        ],
+        "name": "পোশাক, স্বাস্থ্য ও সৌন্দর্য্য",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic",
+        "type": "fashion"
+      }, {
+        "id": 275,
+        "children": [],
+        "name": "পোশাক",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 276,
+        "children": [],
+        "name": "জুতা - স্যান্ডেল",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 277,
+        "children": [],
+        "name": "জুয়েলারী",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 278,
+        "children": [],
+        "name": "সানগ্লাস",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 279,
+        "children": [],
+        "name": "ঘড়ি",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 280,
+        "children": [],
+        "name": "ব্যাগ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 281,
+        "children": [],
+        "name": "অন্যান্য ফ্যাশনের সামগ্রী",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 288,
+        "children": [],
+        "name": "স্বাস্থ্য ও সৌন্দর্য পণ্য",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 298,
+        "children": [],
+        "name": "অন্যান্য ব্যক্তিগত সামগ্রী",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 314,
+        "children": [
+          332,
+          315,
+          341,
+          294,
+          331,
+          325,
+          242,
+          283,
+          347
+        ],
+        "name": "শখ, খেলাধুলা এবং শিশু",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "hobby"
+      }, {
+        "id": 332,
+        "children": [],
+        "name": "বাদ্যযন্ত্র",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 315,
+        "children": [],
+        "name": "খেলার সামগ্রী",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 341,
+        "children": [],
+        "name": "ইভেন্ট, ভ্রমণ এবং টিকেট",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 294,
+        "children": [],
+        "name": "হস্তশিল্প",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 331,
+        "children": [],
+        "name": "শিল্প এবং সংগ্রহ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 325,
+        "children": [],
+        "name": "সঙ্গীত, বই এবং চলচ্চিত্র",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 242,
+        "children": [],
+        "name": "ভিডিও গেম ও কনসোল",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 283,
+        "children": [],
+        "name": "বাচ্চাদের জামাকাপড় ও খেলনা",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 347,
+        "children": [],
+        "name": "শখ, খেলাধুলা এবং শিশুদের অন্যান্য পণ্য",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 348,
+        "children": [
+          375,
+          1005,
+          1006,
+          1007,
+          1008,
+          1023
+        ],
+        "name": "ব্যবসা, সার্ভিস ও শিল্পকারখানা",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic",
+        "type": "business"
+      }, {
+        "id": 375,
+        "children": [],
+        "name": "সার্ভিস",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1005,
+        "children": [],
+        "name": "অফিস সরবরাহ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1006,
+        "children": [],
+        "name": "কারখানার মেশিন ও যন্ত্রপাতি",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1007,
+        "children": [],
+        "name": "কাঁচামাল এবং কারখানার সরবরাহ",
+        "ad_types": ["for_sale", "to_buy"],
+          "available_serp_layouts": [
+            "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1008,
+        "children": [],
+        "name": "লাইসেন্স, মালিকানা এবং দরপত্র",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1023,
+        "children": [],
+        "name": "মেডিকেল সরঞ্জাম ও সরবরাহ",
+        "ad_types": ["for_sale", "to_buy"],
+          "available_serp_layouts": [
+            "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 381,
+        "children": [
+          382,
+          385,
+          389
+        ],
+        "name": "শিক্ষা",
+        "ad_types": [],
+          "available_serp_layouts": [
+            "classic"
+          ],
+        "default_serp_layout": "classic",
+        "type": "education"
+      }, {
+        "id": 382,
+        "children": [],
+        "name": "পাঠ্য বই",
+        "ad_types": ["for_sale", "to_buy"],
+          "available_serp_layouts": [
+            "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 385,
+        "children": [],
+        "name": "টিউশন",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 389,
+        "children": [],
+        "name": "অন্যান্য শিক্ষা",
+        "ad_types": ["for_sale", "to_buy"],
+          "available_serp_layouts": [
+            "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 299,
+        "children": [
+          300,
+          307,
+          310,
+          313
+        ],
+        "name": "পোষা প্রাণী ও জীবজন্তু",
+        "ad_types": [],
+          "available_serp_layouts": [
+            "classic"
+          ],
+        "default_serp_layout": "classic",
+        "type": "animals"
+      }, {
+        "id": 300,
+        "children": [],
+        "name": "পোষা প্রাণী",
+        "ad_types": ["for_sale", "to_buy"],
+          "available_serp_layouts": [
+            "classic",
+            "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 307,
+        "children": [],
+        "name": "গবাদি পশু",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+          ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 310,
+        "children": [],
+        "name": "পোষা প্রাণীর বিভিন্ন উপকরণ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 313,
+        "children": [],
+        "name": "অন্যান্য পোষা প্রাণী ও জীবজন্তু",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 594,
+        "children": [
+          595,
+          599,
+          1009,
+          600
+        ],
+        "name": "কৃষি এবং খাদ্যদ্রব্য",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic",
+        "type": "food"
+      }, {
+        "id": 595,
+        "children": [],
+        "name": "খাদ্যদ্রব্য",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 599,
+        "children": [],
+        "name": "ফসল, বীজ এবং গাছ-গাছালি",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1009,
+        "children": [],
+        "name": "খামারের যন্ত্রপাতি",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 600,
+        "children": [],
+        "name": "অন্যান্য কৃষি এবং খাদ্যদ্রব্য",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 390,
+        "children": [],
+        "name": "অন্যান্য",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+          ],
+        "default_serp_layout": "classic",
+        "type": "other"
+      }]
+    }
+  }
+}

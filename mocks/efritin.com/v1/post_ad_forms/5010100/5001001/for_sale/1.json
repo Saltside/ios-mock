@@ -1,0 +1,397 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Identifier": "2f85d4fc-339e-455b-8990-8029f3d90f86",
+      "Application-Name": "android",
+      "Categories-Version": "8c92b8560cbc5238b64f9ece384105bf",
+      "Content-Type": "application/json",
+      "Locations-Version": "237c7035db9fef6a2538855b6155bf36"
+    }
+  },
+  "response": {
+    "schema": "responses/get_post_ad_form_with_location.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json",
+      "Version": "bc244514cf576ecf341ea19f5c94f8c3"
+    },
+    "body": {
+      "post_ad_form": {
+        "name": "for_sale_cars",
+        "enhancements": {
+          "max_images": 5,
+          "cars": true,
+          "jobs": false,
+          "properties": false
+        },
+        "fields": [{
+          "key": "brand",
+          "type": "enum",
+          "data": {},
+          "label": "Brand",
+          "required": true,
+          "values": [{
+            "key": "acura",
+            "label": "Acura"
+          }, {
+            "key": "alfa-romeo",
+            "label": "Alfa Romeo"
+          }, {
+            "key": "audi",
+            "label": "Audi"
+          }, {
+            "key": "bmw",
+            "label": "BMW"
+          }, {
+            "key": "buick",
+            "label": "Buick"
+          }, {
+            "key": "cadillac",
+            "label": "Cadillac"
+          }, {
+            "key": "changan",
+            "label": "Changan"
+          }, {
+            "key": "chery",
+            "label": "Chery"
+          }, {
+            "key": "chevrolet",
+            "label": "Chevrolet"
+          }, {
+            "key": "chrysler",
+            "label": "Chrysler"
+          }, {
+            "key": "citroen",
+            "label": "Citroën"
+          }, {
+            "key": "daewoo",
+            "label": "Daewoo"
+          }, {
+            "key": "daihatsu",
+            "label": "Daihatsu"
+          }, {
+            "key": "datsun",
+            "label": "Datsun"
+          }, {
+            "key": "dodge",
+            "label": "Dodge"
+          }, {
+            "key": "ferrari",
+            "label": "Ferrari"
+          }, {
+            "key": "fiat",
+            "label": "Fiat"
+          }, {
+            "key": "ford",
+            "label": "Ford"
+          }, {
+            "key": "geely",
+            "label": "Geely"
+          }, {
+            "key": "gmc",
+            "label": "GMC"
+          }, {
+            "key": "hino",
+            "label": "Hino"
+          }, {
+            "key": "honda",
+            "label": "Honda"
+          }, {
+            "key": "hummer",
+            "label": "Hummer"
+          }, {
+            "key": "hyundai",
+            "label": "Hyundai"
+          }, {
+            "key": "infiniti",
+            "label": "Infiniti"
+          }, {
+            "key": "isuzu",
+            "label": "Isuzu"
+          }, {
+            "key": "jaguar",
+            "label": "Jaguar"
+          }, {
+            "key": "jeep",
+            "label": "Jeep"
+          }, {
+            "key": "kia",
+            "label": "Kia"
+          }, {
+            "key": "lamborghini",
+            "label": "Lamborghini"
+          }, {
+            "key": "land-rover",
+            "label": "Land Rover"
+          }, {
+            "key": "lexus",
+            "label": "Lexus"
+          }, {
+            "key": "lincoln",
+            "label": "Lincoln"
+          }, {
+            "key": "maruti",
+            "label": "Maruti"
+          }, {
+            "key": "maruti-suzuki",
+            "label": "Maruti Suzuki"
+          }, {
+            "key": "mazda",
+            "label": "Mazda"
+          }, {
+            "key": "mercedes-benz",
+            "label": "Mercedes-Benz"
+          }, {
+            "key": "mg",
+            "label": "MG"
+          }, {
+            "key": "mini",
+            "label": "Mini"
+          }, {
+            "key": "mitsubishi",
+            "label": "Mitsubishi"
+          }, {
+            "key": "moto-guzzi",
+            "label": "Moto Guzzi"
+          }, {
+            "key": "nissan",
+            "label": "Nissan"
+          }, {
+            "key": "oldsmobile",
+            "label": "Oldsmobile"
+          }, {
+            "key": "opel",
+            "label": "Opel"
+          }, {
+            "key": "peugeot",
+            "label": "Peugeot"
+          }, {
+            "key": "plymoth",
+            "label": "Plymouth"
+          }, {
+            "key": "pontiac",
+            "label": "Pontiac"
+          }, {
+            "key": "porsche",
+            "label": "Porsche"
+          }, {
+            "key": "proton",
+            "label": "Proton"
+          }, {
+            "key": "renault",
+            "label": "Renault"
+          }, {
+            "key": "rover",
+            "label": "Rover"
+          }, {
+            "key": "royal-enfield",
+            "label": "Royal Enfield"
+          }, {
+            "key": "saab",
+            "label": "SAAB"
+          }, {
+            "key": "saturn",
+            "label": "Saturn"
+          }, {
+            "key": "scion",
+            "label": "Scion"
+          }, {
+            "key": "seat",
+            "label": "SEAT"
+          }, {
+            "key": "skoda",
+            "label": "Skoda"
+          }, {
+            "key": "smart",
+            "label": "Smart"
+          }, {
+            "key": "ssang-yong",
+            "label": "Ssang Yong"
+          }, {
+            "key": "subaru",
+            "label": "Subaru"
+          }, {
+            "key": "suzuki",
+            "label": "Suzuki"
+          }, {
+            "key": "tata",
+            "label": "Tata"
+          }, {
+            "key": "toyota",
+            "label": "Toyota"
+          }, {
+            "key": "vauxhall",
+            "label": "Vauxhall"
+          }, {
+            "key": "volkswagen",
+            "label": "Volkswagen"
+          }, {
+            "key": "volvo",
+            "label": "Volvo"
+          }, {
+            "key": "other",
+            "label": "Other brand"
+          }]
+        }, {
+          "key": "model",
+          "type": "text",
+          "data": {},
+          "label": "Model",
+          "tooltip": "Enter the model name, edition and colour.",
+          "required": true,
+          "minimum_length": 1,
+          "maximum_length": 19
+        }, {
+          "key": "model_year",
+          "type": "year",
+          "data": {},
+          "label": "Model year",
+          "required": true,
+          "minimum": 1917,
+          "maximum": 2017
+        }, {
+          "key": "condition",
+          "type": "enum",
+          "data": {},
+          "label": "Condition",
+          "required": true,
+          "values": [{
+            "key": "new",
+            "label": "New"
+          }, {
+            "key": "used",
+            "label": "Used"
+          }]
+        }, {
+          "key": "mileage",
+          "type": "measurement",
+          "data": {
+            "unit": "km"
+          },
+          "label": "Mileage",
+          "tooltip": "Check and enter the mileage for the car.",
+          "required": false,
+          "units": [{
+            "key": "km",
+            "label": "km"
+          }],
+          "minimum": 0,
+          "maximum": 1000000,
+          "decimal_places": 0
+        }, {
+          "key": "body",
+          "type": "enum",
+          "data": {},
+          "label": "Body type",
+          "required": false,
+          "values": [{
+            "key": "saloon",
+            "label": "Saloon"
+          }, {
+            "key": "hatchback",
+            "label": "Hatchback"
+          }, {
+            "key": "estate",
+            "label": "Estate"
+          }, {
+            "key": "convertible",
+            "label": "Convertible"
+          }, {
+            "key": "coupe-sports",
+            "label": "Coupé/Sports"
+          }, {
+            "key": "suv-4x4",
+            "label": "SUV / 4x4"
+          }, {
+            "key": "mpv",
+            "label": "MPV"
+          }]
+        }, {
+          "key": "transmission",
+          "type": "enum",
+          "data": {},
+          "label": "Transmission",
+          "required": true,
+          "values": [{
+            "key": "manual",
+            "label": "Manual"
+          }, {
+            "key": "automatic",
+            "label": "Automatic"
+          }, {
+            "key": "other",
+            "label": "Other"
+          }]
+        }, {
+          "key": "fuels",
+          "type": "multi",
+          "data": {},
+          "label": "Fuel type",
+          "required": true,
+          "values": [{
+            "key": "diesel",
+            "label": "Diesel"
+          }, {
+            "key": "petrol",
+            "label": "Petrol"
+          }, {
+            "key": "cng",
+            "label": "CNG"
+          }, {
+            "key": "other",
+            "label": "Other"
+          }]
+        }, {
+          "key": "engine_capacity",
+          "type": "measurement",
+          "data": {
+            "unit": "liter"
+          },
+          "label": "Engine capacity",
+          "required": false,
+          "units": [{
+            "key": "liter",
+            "label": "Liter"
+          }],
+          "minimum": 0.1,
+          "maximum": 100,
+          "decimal_places": 1
+        }, {
+          "key": "description",
+          "type": "description",
+          "data": {},
+          "label": "Description",
+          "tooltip": "More details = more interested buyers!",
+          "required": true,
+          "minimum_length": 30,
+          "maximum_length": 5000
+        }, {
+          "key": "price",
+          "type": "money",
+          "data": {
+            "currency": "NGN"
+          },
+          "label": "Price",
+          "tooltip": "Pick a good price.",
+          "required": true,
+          "currencies": [{
+            "key": "NGN",
+            "code": "NGN",
+            "label": "₦"
+          }],
+          "units": [],
+          "negotiable": "Negotiable",
+          "minimum": 1,
+          "maximum": 9999999999999
+        }],
+        "features": {
+          "buy_now": false
+        },
+        "category_tooltip": "This is a test tooltip"
+      }
+    }
+  }
+}

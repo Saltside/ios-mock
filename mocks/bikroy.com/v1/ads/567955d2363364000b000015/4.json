@@ -1,0 +1,96 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "bn_BD",
+      "Application-Identifier": "76db3ecb-4a7c-4c51-a9a9-009a7258607a",
+      "Application-Name": "android",
+      "Categories-Version": "c879bd58dcea3bd8a19c8aa1377ebdd6",
+      "Content-Type": "application/json",
+      "Locations-Version": "ff586d05a30872cce2cb2b3c4da34a72"
+    },
+    "parameters": {
+      "similar_ads": 5,
+      "banners": true
+    }
+  },
+  "response": {
+    "schema": "responses/get_ad.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "bn",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "ad": {
+        "id": "567955d2363364000b000015",
+        "slug": "test-title-for-sale-dhaka-division",
+        "title": "Test Title",
+        "description": "This is a test. Please reject this ad.",
+        "type": "for_sale",
+        "date": "2015-12-22T19:53:23+06:00",
+        "area": {
+          "id": 1141,
+          "name": "ঢাকা বিভাগ"
+        },
+        "location": {
+          "id": 1142,
+          "name": "ফরিদপুর"
+        },
+        "category": {
+          "id": 347,
+          "name": "শখ, খেলাধুলা এবং শিশুদের অন্যান্য পণ্য"
+        },
+        "contact_card": {
+          "name": "lisa",
+          "email": {
+            "verified": false
+          },
+          "phone_numbers": [{
+            "number": "08023104933",
+            "verified": false
+          }],
+          "opt_out": true,
+          "chat_enabled": false
+        },
+        "info": "৳ ১২,৩৪৫",
+        "status": "published",
+        "details": [],
+        "url": "http://staging.bikroy.com/bn/ad/test-title-for-sale-dhaka-division",
+        "account": {
+          "id": "5666eca23762650005000008",
+          "traits": {}
+        },
+        "properties": [{
+          "label": "কন্ডিশন",
+          "value": "ব্যবহৃত"
+        }],
+        "promotions": {
+          "top_ad": false,
+          "bump_up": false
+        },
+        "money": {
+          "label": "মূল্য",
+          "amount": "৳ ১২,৩৪৫"
+        },
+        "features": {
+          "buy_now": false
+        }
+      },
+      "similar_ads": [],
+      "banners": {
+        "android": {
+          "bottom": {
+            "slot": "/134461134/Bikroy_EN_Android_Detailed_300x250_Other_All",
+            "sizes": [
+              {
+                "width": 300,
+                "height": 250
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

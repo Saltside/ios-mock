@@ -1,0 +1,26 @@
+{
+  "request": {
+    "schema": "requests/buy_now.json",
+    "method": "POST",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "ad_id": "ad3",
+      "buyer": {
+        "name": "Sherlock Holmes",
+        "address": "221B Baker Street",
+        "phone_number": "050044444"
+      }
+    }
+  },
+  "response": {
+    "code": 201,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "text/html;charset=utf-8"
+    }
+  }
+}

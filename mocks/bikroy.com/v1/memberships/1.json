@@ -1,0 +1,67 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "bn_BD",
+      "Application-Identifier": "76db3ecb-4a7c-4c51-a9a9-009a7258607a",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    }
+  },
+  "response": {
+    "schema": "responses/get_memberships.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "bn",
+      "Content-Type": "application/json",
+      "Version": "1ecfa236c822b5266020c5dc637d7153"
+    },
+    "body": {
+      "memberships": [{
+        "key": "cars_vehicles",
+        "name": "গাড়ি ও অন্যান্য যানবাহন",
+        "levels": [{
+          "key": "free",
+          "name": "ফ্রি",
+          "limit": {
+            "label": "৫",
+            "value": 5
+          }
+        }, {
+          "key": "plus",
+          "name": "বিজনেস প্লাস",
+          "limit": {
+            "label": "৩০",
+            "value": 30
+          }
+        }, {
+          "key": "premium",
+          "name": "বিজনেস প্রিমিয়াম"
+        }],
+        "category_ids": [193, 203, 908, 204, 915, 194, 924]
+      }, {
+        "key": "properties",
+        "name": "প্রপার্টি",
+        "levels": [{
+          "key": "free",
+          "name": "ফ্রি",
+          "limit": {
+            "label": "৫",
+            "value": 5
+          }
+        }, {
+          "key": "plus",
+          "name": "বিজনেস প্লাস",
+          "limit": {
+            "label": "২০",
+            "value": 20
+          }
+        }, {
+          "key": "premium",
+          "name": "বিজনেস প্রিমিয়াম"
+        }],
+        "category_ids": [211, 212, 218, 213, 223, 217]
+      }]
+    }
+  }
+}

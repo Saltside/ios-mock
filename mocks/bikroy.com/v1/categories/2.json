@@ -1,0 +1,795 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "en_BD",
+      "Application-Identifier": "76db3ecb-4a7c-4c51-a9a9-009a7258607a",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    }
+  },
+  "response": {
+    "schema": "responses/get_categories.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json",
+      "Version": "c879bd58dcea3bd8a19c8aa1377ebdd6"
+    },
+    "body": {
+      "categories": [{
+        "id": 229,
+        "children": [
+          230,
+          231,
+          893,
+          897,
+          851,
+          850,
+          855,
+          846,
+          244
+        ],
+        "name": "Electronics",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "electronics"
+      }, {
+        "id": 230,
+        "children": [],
+        "name": "Mobile Phones",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 231,
+        "children": [],
+        "name": "Mobile Phone Accessories",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 893,
+        "children": [],
+        "name": "Computers & Tablets",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 897,
+        "children": [],
+        "name": "Computer Accessories",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 851,
+        "children": [],
+        "name": "TVs",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 850,
+        "children": [],
+        "name": "TV & Video Accessories",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 855,
+        "children": [],
+        "name": "Cameras & Camcorders",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 846,
+        "children": [],
+        "name": "Audio & MP3",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 244,
+        "children": [],
+        "name": "Other Electronics",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 192,
+        "children": [
+          193,
+          203,
+          908,
+          204,
+          915,
+          194,
+          924
+        ],
+        "name": "Cars & Vehicles",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "vehicles"
+      }, {
+        "id": 193,
+        "children": [],
+        "name": "Cars",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 203,
+        "children": [],
+        "name": "Motorbikes & Scooters",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 908,
+        "children": [],
+        "name": "Bicycles and Three Wheelers",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 204,
+        "children": [],
+        "name": "Trucks, Vans & Buses",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 915,
+        "children": [],
+        "name": "Tractors & Heavy-Duty",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 194,
+        "children": [],
+        "name": "Auto Parts & Accessories",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 924,
+        "children": [],
+        "name": "Boats & Water Transport",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 210,
+        "children": [
+          211,
+          212,
+          218,
+          217,
+          213,
+          223
+        ],
+        "name": "Property",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "property"
+      }, {
+        "id": 211,
+        "children": [],
+        "name": "Apartments & Flats",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 212,
+        "children": [],
+        "name": "Houses",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 218,
+        "children": [],
+        "name": "Plots & Land",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 217,
+        "children": [],
+        "name": "Rooms",
+        "ad_types": ["for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 213,
+        "children": [],
+        "name": "Garages",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 223,
+        "children": [],
+        "name": "Commercial Property",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+          "classic",
+          "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 349,
+        "children": [],
+        "name": "Job Openings",
+        "ad_types": ["for_sale"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "jobs"
+      }, {
+        "id": 245,
+        "children": [
+          246,
+          263,
+          256,
+          579
+        ],
+        "name": "Home & Garden",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "home"
+      }, {
+        "id": 246,
+        "children": [],
+        "name": "Furniture",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 263,
+        "children": [],
+        "name": "Home Appliances",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 256,
+        "children": [],
+        "name": "Electricity, AC, Bathroom & Garden",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 579,
+        "children": [],
+        "name": "Other Home Items",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 273,
+        "children": [
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          288,
+          298
+        ],
+        "name": "Clothing, Health & Beauty",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "fashion"
+      }, {
+        "id": 275,
+        "children": [],
+        "name": "Clothing",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 276,
+        "children": [],
+        "name": "Shoes & Footwear",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 277,
+        "children": [],
+        "name": "Jewellery",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 278,
+        "children": [],
+        "name": "Sunglasses",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 279,
+        "children": [],
+        "name": "Watches",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 280,
+        "children": [],
+        "name": "Bags",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 281,
+        "children": [],
+        "name": "Other Fashion Accessories",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 288,
+        "children": [],
+        "name": "Health & Beauty Products",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 298,
+        "children": [],
+        "name": "Other Personal Items",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 314,
+        "children": [
+          332,
+          315,
+          341,
+          294,
+          331,
+          325,
+          242,
+          283,
+          347
+        ],
+        "name": "Hobby, Sport & Kids",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "hobby"
+      }, {
+        "id": 332,
+        "children": [],
+        "name": "Musical Instruments",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 315,
+        "children": [],
+        "name": "Sports Equipment",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 341,
+        "children": [],
+        "name": "Travel, Events & Tickets",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 294,
+        "children": [],
+        "name": "Handicraft",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 331,
+        "children": [],
+        "name": "Art & Collectibles",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 325,
+        "children": [],
+        "name": "Music, Books & Movies",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 242,
+        "children": [],
+        "name": "Video Games & Consoles",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 283,
+        "children": [],
+        "name": "Children's Items",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 347,
+        "children": [],
+        "name": "Other Hobby, Sport & Kids items",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 348,
+        "children": [
+          375,
+          1005,
+          1006,
+          1007,
+          1008,
+          1023
+        ],
+        "name": "Business, Services & Industry",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "business"
+      }, {
+        "id": 375,
+        "children": [],
+        "name": "Services",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1005,
+        "children": [],
+        "name": "Office Supplies",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1006,
+        "children": [],
+        "name": "Industry Machinery & Tools",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1007,
+        "children": [],
+        "name": "Raw Materials & Industrial Supplies",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1008,
+        "children": [],
+        "name": "Licences, Titles & Tenders",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1023,
+        "children": [],
+        "name": "Medical Equipment & Supplies",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 381,
+        "children": [
+          382,
+          385,
+          389
+        ],
+        "name": "Education",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "education"
+      }, {
+        "id": 382,
+        "children": [],
+        "name": "Textbooks",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 385,
+        "children": [],
+        "name": "Tuition",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 389,
+        "children": [],
+        "name": "Other Education",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 299,
+        "children": [
+          300,
+          307,
+          310,
+          313
+        ],
+        "name": "Pets & Animals",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "animals"
+      }, {
+        "id": 300,
+        "children": [],
+        "name": "Pets",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 307,
+        "children": [],
+        "name": "Farm Animals",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 310,
+        "children": [],
+        "name": "Pet & Animal Accessories",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 313,
+        "children": [],
+        "name": "Other Pets & Animals",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic",
+          "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 594,
+        "children": [
+          595,
+          599,
+          1009,
+          600
+        ],
+        "name": "Food & Agriculture",
+        "ad_types": [],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "food"
+      }, {
+        "id": 595,
+        "children": [],
+        "name": "Food",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 599,
+        "children": [],
+        "name": "Crops, Seeds & Plants",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1009,
+        "children": [],
+        "name": "Farming Tools & Machinery",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 600,
+        "children": [],
+        "name": "Other Food & Agriculture",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 390,
+        "children": [],
+        "name": "Other",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+          "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "other"
+      }]
+    }
+  }
+}

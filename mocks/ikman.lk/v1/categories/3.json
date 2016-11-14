@@ -1,0 +1,784 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "si_LK",
+      "Application-Identifier": "76db3ecb-4a7c-4c51-a9a9-009a7258607a",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    }
+  },
+  "response": {
+    "schema": "responses/get_categories.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "si",
+      "Content-Type": "application/json",
+      "Version": "c879bd58dcea3bd8a19c8aa1377ebdd6"
+    },
+    "body": {
+      "categories": [{
+        "id": 428,
+        "children": [
+          429,
+          430,
+          898,
+          902,
+          865,
+          864,
+          869,
+          860,
+          443
+        ],
+        "name": "ඉලෙක්ට්‍රොනික උපකරණ",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "electronics"
+      }, {
+        "id": 429,
+        "children": [],
+        "name": "ජංගම දුරකථන",
+        "ad_types": ["for_sale", "to_buy"],
+      	"available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 430,
+        "children": [],
+        "name": "ජංගම දුරකථන උපාංග",
+        "ad_types": ["for_sale", "to_buy"],
+      	"available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 898,
+        "children": [],
+        "name": "පරිගණක සහ ටැබ්ලට්ස්",
+        "ad_types": ["for_sale", "to_buy"],
+      	"available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 902,
+        "children": [],
+        "name": "පරිගණක උපාංග",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 865,
+        "children": [],
+        "name": "රූපවාහිනි",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 864,
+        "children": [],
+        "name": "ටිවි සහ විඩියෝ අමතර උපාංග",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 869,
+        "children": [],
+        "name": "ඡායා රූප සහ වීඩියෝ කැමරා",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 860,
+        "children": [],
+        "name": "ශ්‍රව්‍ය උපකරණ සහ MP3",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 443,
+        "children": [],
+        "name": "වෙනත් ඉලෙක්ට්‍රොනික උපකරණ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 391,
+        "children": [
+          392,
+          402,
+          911,
+          603,
+          403,
+          917,
+          393,
+          925
+        ],
+        "name": "මෝටර් රථ සහ අනෙකුත් වාහන",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "vehicles"
+      }, {
+        "id": 392,
+        "children": [],
+        "name": "මෝටර් රථ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 402,
+        "children": [],
+        "name": "මෝටර්සයිකල් සහ ස්කූටර්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 911,
+        "children": [],
+        "name": "ත්‍රී රෝද රථ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 603,
+        "children": [],
+        "name": "පාපැදි",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 403,
+        "children": [],
+        "name": "වෑන් සහ බස්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 917,
+        "children": [],
+        "name": "බරවාහන ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 393,
+        "children": [],
+        "name": "මෝටර් රථ අමතර කොටස් සහ උපාංග",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 925,
+        "children": [],
+        "name": "බෝට්ටු",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 409,
+        "children": [
+          417,
+          411,
+          410,
+          413,
+          936,
+          422
+        ],
+        "name": "ඉඩකඩම්",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "property"
+      }, {
+        "id": 417,
+        "children": [],
+        "name": "ඉඩම්",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 411,
+        "children": [],
+        "name": "නිවාස",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 410,
+        "children": [],
+        "name": "මහල් නිවාස",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 413,
+        "children": [],
+        "name": "කොටස් සහ කාමර",
+        "ad_types": ["to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 936,
+        "children": [],
+        "name": "නිවාඩු සහ කෙටි කාලීනව කුලියට ගැනීම",
+        "ad_types": ["for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 422,
+        "children": [],
+        "name": "ව්‍යාපාරික දේපළ",
+        "ad_types": ["for_sale", "to_buy", "for_rent", "to_rent"],
+        "available_serp_layouts": [
+        "classic",
+        "single_column"
+        ],
+        "default_serp_layout": "single_column"
+      }, {
+        "id": 536,
+        "children": [],
+        "name": "රැකියා පුරප්පාඩු",
+        "ad_types": ["for_sale"],
+      	"available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "jobs"
+      }, {
+        "id": 444,
+        "children": [
+          445,
+          463,
+          455,
+          488
+        ],
+        "name": "නිවාස සහ උද්‍යාන",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "home"
+      }, {
+        "id": 445,
+        "children": [],
+        "name": "ගෘහ භාණ්ඞ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 463,
+        "children": [],
+        "name": "ගේදොර උපකරණ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 455,
+        "children": [],
+        "name": "විදුලි, වායු සමීකරණ, නාන කාමර සහ උද්‍යාන",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 488,
+        "children": [],
+        "name": "අනෙකුත් ගේදොර උපකරණ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 470,
+        "children": [
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          483,
+          1014
+        ],
+        "name": "විලාසිතා, සෞඛ්‍ය සහ  රූපලාවන්‍ය",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "fashion"
+      }, {
+        "id": 471,
+        "children": [],
+        "name": "ඇදුම්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 472,
+        "children": [],
+        "name": "සපත්තු සහ පාවහන්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 473,
+        "children": [],
+        "name": "ආභරණ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 474,
+        "children": [],
+        "name": "අව් කන්නාඩි",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 475,
+        "children": [],
+        "name": "අත් ඔරලෝසු",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 476,
+        "children": [],
+        "name": "අනෙකුත් විලාසිතා සහ උපාංග",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 483,
+        "children": [],
+        "name": "සෞඛ්‍ය සහ රූපලාවන්‍ය නිෂ්පාදන",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 1014,
+        "children": [],
+        "name": "අනෙකුත් පෞද්ගලික භාණ්ඩ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 503,
+        "children": [
+          519,
+          504,
+          528,
+          518,
+          513,
+          441,
+          478,
+          534
+        ],
+        "name": "විනෝදාංශ, ක්‍රීඩා සහ ළමා අයිතම",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "hobby"
+      }, {
+        "id": 519,
+        "children": [],
+        "name": "සංගීත භාණ්ඩ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 504,
+        "children": [],
+        "name": "ක්‍රීඩා උපකරණ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 528,
+        "children": [],
+        "name": "චාරිකා, උත්සව සහ ප්‍රවේශපත්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 518,
+        "children": [],
+        "name": "චිත්‍ර සහ එකතු කිරීමට තරම් වටිනා දෑ",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 513,
+        "children": [],
+        "name": "සංගීත, පොත් සහ චිත්‍රපටි",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 441,
+        "children": [],
+        "name": "විඩීයෝ ක්‍රීඩා සහ කොන්සෝල්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 478,
+        "children": [],
+        "name": "ළමා ඇඳුම් පැළදුම් සහ සෙල්ලම් බඩු",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 534,
+        "children": [],
+        "name": "වෙනත් විනෝදාංශ, ක්‍රීඩා සහ ළමා අයිතම",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 535,
+        "children": [
+          562,
+          1010,
+          1011,
+          1012,
+          1013,
+          1025
+        ],
+        "name": "ව්‍යාපාර, සේවා සහ කර්මාන්ත",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "business"
+      }, {
+        "id": 562,
+        "children": [],
+        "name": "සේවා",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1010,
+        "children": [],
+        "name": "කාර්යාලීය සැපයුම් සහ ලිපි ද්‍රව්‍ය",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1011,
+        "children": [],
+        "name": "කර්මාන්ත යන්ත්‍රෝපකරණ සහ මෙවලම්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1012,
+        "children": [],
+        "name": "අමුද්‍රව්‍ය සහ ගොඩනැගිලි සැපයුම්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1013,
+        "children": [],
+        "name": "බලපත්‍ර සහ නාමයන්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1025,
+        "children": [],
+        "name": "වෛද්‍ය උපකරණ සහ සැපයුම්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 568,
+        "children": [
+          569,
+          574,
+          577
+        ],
+        "name": "අධ්‍යාපනය",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "education"
+      }, {
+        "id": 569,
+        "children": [],
+        "name": "පෙළ පොත්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 574,
+        "children": [],
+        "name": "අමතර ඉගැන්වීම",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 577,
+        "children": [],
+        "name": "වෙනත් අධ්‍යාපනික",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 489,
+        "children": [
+          490,
+          496,
+          499,
+          502
+        ],
+        "name": "සතුන්",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "animals"
+      }, {
+        "id": 490,
+        "children": [],
+        "name": "සුරතල් සතුන්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 496,
+        "children": [],
+        "name": "ගොවිපොළ සතුන්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 499,
+        "children": [],
+        "name": "සතුන් සදහා වන උපාංග",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 502,
+        "children": [],
+        "name": "වෙනත් සතුන්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic",
+        "fluid"
+        ],
+        "default_serp_layout": "fluid"
+      }, {
+        "id": 587,
+        "children": [
+          588,
+          592,
+          1015,
+          593
+        ],
+        "name": "ආහාර සහ කෘෂිකර්මික",
+        "ad_types": [],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "food"
+      }, {
+        "id": 588,
+        "children": [],
+        "name": "ආහාර",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 592,
+        "children": [],
+        "name": "බෝග ධාන්‍ය සහ පැල",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 1015,
+        "children": [],
+        "name": "ගොවිතැන් උපකරණ සහ මෙවලම්",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 593,
+        "children": [],
+        "name": "වෙනත් ආහාර සහ කෘෂිකාර්මික",
+        "ad_types": ["for_sale", "to_buy"],
+        "available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic"
+      }, {
+        "id": 578,
+        "children": [],
+        "name": "වෙනත්",
+        "ad_types": ["for_sale", "to_buy"],
+      	"available_serp_layouts": [
+        "classic"
+        ],
+        "default_serp_layout": "classic",
+        "type": "other"
+      }]
+    }
+  }
+}

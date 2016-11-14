@@ -1,0 +1,1724 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "bn_BD",
+      "Application-Identifier": "fcde6fce-933e-4b5b-ac31-ea99e8ff61e4",
+      "Application-Name": "android",
+      "Categories-Version": "c879bd58dcea3bd8a19c8aa1377ebdd6",
+      "Content-Type": "application/json",
+      "Locations-Version": "ff586d05a30872cce2cb2b3c4da34a72"
+    },
+    "parameters": {
+      "top_ads": 1,
+      "banners": true
+    }
+  },
+  "response": {
+    "schema": "responses/serp.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "bn",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "pagination": {
+        "page": 1,
+        "per_page": 25,
+        "total": 110,
+        "pages": 5,
+        "next_page_url": "http://staging.api.bikroy.com/v1/serp?top_ads=1&banners=true&page=2&next_page_token=1452260981",
+        "next_page_token": "1452260981"
+      },
+      "serp": {
+        "categories": [{
+          "id": 229,
+          "name": "ইলেকট্রনিক্স",
+          "count": 65
+        }, {
+          "id": 349,
+          "name": "চাকরির বিজ্ঞাপন",
+          "count": 13
+        }, {
+          "id": 390,
+          "name": "অন্যান্য",
+          "count": 10
+        }, {
+          "id": 192,
+          "name": "গাড়ি ও অন্যান্য যানবাহন",
+          "count": 7
+        }, {
+          "id": 314,
+          "name": "শখ, খেলাধুলা এবং শিশু",
+          "count": 5
+        }, {
+          "id": 210,
+          "name": "প্রপার্টি",
+          "count": 3
+        }, {
+          "id": 299,
+          "name": "পোষা প্রাণী ও জীবজন্তু",
+          "count": 3
+        }, {
+          "id": 245,
+          "name": "ঘর ও বাগানের সামগ্রী",
+          "count": 2
+        }, {
+          "id": 273,
+          "name": "পোশাক, স্বাস্থ্য ও সৌন্দর্য্য",
+          "count": 1
+        }, {
+          "id": 594,
+          "name": "কৃষি এবং খাদ্যদ্রব্য",
+          "count": 1
+        }],
+        "locations": [{
+          "id": 1141,
+          "name": "ঢাকা বিভাগ",
+          "count": 45
+        }, {
+          "id": 1211,
+          "name": "ঢাকা",
+          "count": 37
+        }, {
+          "id": 1179,
+          "name": "খুলনা",
+          "count": 9
+        }, {
+          "id": 1346,
+          "name": "সিলেট",
+          "count": 5
+        }, {
+          "id": 1194,
+          "name": "রংপুর বিভাগ",
+          "count": 4
+        }, {
+          "id": 1295,
+          "name": "চট্টগ্রাম",
+          "count": 4
+        }, {
+          "id": 1159,
+          "name": "চট্টগ্রাম বিভাগ",
+          "count": 2
+        }, {
+          "id": 2002000,
+          "name": "বরিশাল",
+          "count": 2
+        }, {
+          "id": 1204,
+          "name": "বরিশাল বিভাগ",
+          "count": 1
+        }, {
+          "id": 2001000,
+          "name": "রাজশাহী",
+          "count": 1
+        }],
+        "types": [{
+          "key": "for_sale",
+          "count": 102
+        }, {
+          "key": "to_buy",
+          "count": 6
+        }, {
+          "key": "for_rent",
+          "count": 1
+        }, {
+          "key": "to_rent",
+          "count": 1
+        }],
+        "sort_options": ["price", "date"],
+        "sort_option": "date",
+        "results": [{
+          "id": "567955d2363364000b000015",
+          "slug": "test-title-for-sale-dhaka-division",
+          "title": "Test Title",
+          "type": "for_sale",
+          "date": "2015-12-22T19:53:23+06:00",
+          "area": {
+            "id": 1141,
+            "name": "ঢাকা বিভাগ"
+          },
+          "location": {
+            "id": 1142,
+            "name": "ফরিদপুর"
+          },
+          "category": {
+            "id": 347,
+            "name": "শখ, খেলাধুলা এবং শিশুদের অন্যান্য পণ্য"
+          },
+          "contact_card": {
+            "name": "lisa",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "08023104933",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ১২,৩৪৫",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/test-title-for-sale-dhaka-division",
+          "account": {
+            "id": "5666eca23762650005000008",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ১২,৩৪৫"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ১২,৩৪৫",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ১২,৩৪৫",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ১২,৩৪৫",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5673e2fa3265320005000053",
+          "slug": "meeeeehmeeeeehmeeeeeh-for-sale-sylhet",
+          "title": "meeeeehmeeeeehmeeeeeh",
+          "type": "for_sale",
+          "date": "2015-12-22T12:23:45+06:00",
+          "area": {
+            "id": 1346,
+            "name": "সিলেট"
+          },
+          "location": {
+            "id": 1351,
+            "name": "বালাগঞ্জ"
+          },
+          "category": {
+            "id": 313,
+            "name": "অন্যান্য পোষা প্রাণী ও জীবজন্তু"
+          },
+          "contact_card": {
+            "name": "meh meh meh",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "034534534",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ৩৪",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/meeeeehmeeeeehmeeeeeh-for-sale-sylhet",
+          "account": {
+            "id": "5673e2d3326532000500004b",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ৩৪"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ৩৪",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ৩৪",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ৩৪",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5673dcf2326532000500003d",
+          "slug": "used-light-testing-repost-for-sale-dhaka",
+          "title": "Used light testing repost",
+          "type": "for_sale",
+          "date": "2015-12-22T12:08:12+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1215,
+            "name": "বাড্ডা"
+          },
+          "category": {
+            "id": 246,
+            "name": "আসবাবপত্র"
+          },
+          "contact_card": {
+            "name": "lisa",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "08023104933",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ১২৩",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/used-light-testing-repost-for-sale-dhaka",
+          "account": {
+            "id": "5666eca23762650005000008",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ১২৩"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ১২৩",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ১২৩",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ১২৩",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5673dc68326532000500003a",
+          "slug": "used-book-title-testing-repost-for-sale-dhaka",
+          "title": "Used book title - testing repost",
+          "type": "for_sale",
+          "date": "2015-12-22T11:50:38+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1215,
+            "name": "বাড্ডা"
+          },
+          "category": {
+            "id": 325,
+            "name": "সঙ্গীত, বই এবং চলচ্চিত্র"
+          },
+          "contact_card": {
+            "name": "lisa",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "08023104933",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ১৯,২৮৩",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/used-book-title-testing-repost-for-sale-dhaka",
+          "account": {
+            "id": "5666eca23762650005000008",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ১৯,২৮৩"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ১৯,২৮৩",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ১৯,২৮৩",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ১৯,২৮৩",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5677f1e0326532000500006d",
+          "slug": "benq-ffzjtzit-replica-clone-for-sale-dhaka",
+          "title": "BenQ ffzjtzit Replica / Clone",
+          "type": "for_sale",
+          "date": "2015-12-22T01:52:39+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1255,
+            "name": "মিরপুর"
+          },
+          "category": {
+            "id": 230,
+            "name": "মোবাইল ফোন"
+          },
+          "contact_card": {
+            "name": "hui",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ৩,৩৩৩",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/benq-ffzjtzit-replica-clone-for-sale-dhaka",
+          "account": {
+            "id": "5677f1df3265320005000068",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ৩,৩৩৩"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ৩,৩৩৩",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ৩,৩৩৩",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ৩,৩৩৩",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5670128f336562000500008e",
+          "slug": "ze-kitteh-for-sale-sylhet",
+          "title": "ze kitteh",
+          "type": "for_sale",
+          "date": "2015-12-17T13:34:12+06:00",
+          "area": {
+            "id": 1346,
+            "name": "সিলেট"
+          },
+          "location": {
+            "id": 1351,
+            "name": "বালাগঞ্জ"
+          },
+          "category": {
+            "id": 390,
+            "name": "অন্যান্য"
+          },
+          "contact_card": {
+            "name": "meh meh",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0234524423",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ৩৪,৫৬,৪৩২",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/ze-kitteh-for-sale-sylhet",
+          "account": {
+            "id": "5670128e3365620005000089",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ৩৪,৫৬,৪৩২",
+            "negotiable": "আলোচনা সাপেক্ষে "
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ৩৪,৫৬,৪৩২",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ৩৪,৫৬,৪৩২",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ৩৪,৫৬,৪৩২",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "566ea4e7336562000500002b",
+          "slug": "jhjkjkhjkhjk-for-sale-barishal",
+          "title": "jhjkjkhjkhjk",
+          "type": "for_sale",
+          "date": "2015-12-17T13:34:02+06:00",
+          "area": {
+            "id": 2002000,
+            "name": "বরিশাল"
+          },
+          "location": {
+            "id": 2002003,
+            "name": "নথুল্লাবাদ"
+          },
+          "category": {
+            "id": 194,
+            "name": "অটো পার্টস ও এক্সেসরিজ"
+          },
+          "contact_card": {
+            "name": "SriKrishna Padmannagari",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "07243439065",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ৮,৭৮৭",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/jhjkjkhjkhjk-for-sale-barishal",
+          "account": {
+            "id": "566e9f983365620005000023",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ৮,৭৮৭",
+            "negotiable": "আলোচনা সাপেক্ষে "
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ৮,৭৮৭",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ৮,৭৮৭",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ৮,৭৮৭",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "566e9f983365620005000028",
+          "slug": "alcatel-newmodel2015dec-original-for-sale-barishal",
+          "title": "Alcatel newmodel2015Dec Original",
+          "type": "for_sale",
+          "date": "2015-12-17T13:33:57+06:00",
+          "area": {
+            "id": 2002000,
+            "name": "বরিশাল"
+          },
+          "location": {
+            "id": 2002003,
+            "name": "নথুল্লাবাদ"
+          },
+          "category": {
+            "id": 230,
+            "name": "মোবাইল ফোন"
+          },
+          "contact_card": {
+            "name": "SriKrishna Padmannagari",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "07243439065",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ৬,৯৯৯",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/alcatel-newmodel2015dec-original-for-sale-barishal",
+          "account": {
+            "id": "566e9f983365620005000023",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ৬,৯৯৯"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ৬,৯৯৯",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ৬,৯৯৯",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ৬,৯৯৯",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56618dcb303531000a000081",
+          "slug": "lkjaksjdklsa-for-sale-dhaka",
+          "title": "lkjaksjdklsa",
+          "type": "for_sale",
+          "date": "2015-12-17T13:33:44+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1215,
+            "name": "বাড্ডা"
+          },
+          "category": {
+            "id": 294,
+            "name": "হস্তশিল্প"
+          },
+          "contact_card": {
+            "name": "SriKrishna Padmannagari",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "098978978",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ৮,৯৮৯",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/lkjaksjdklsa-for-sale-dhaka",
+          "account": {
+            "id": "56618dcb303531000a00007c",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ৮,৯৮৯"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ৮,৯৮৯",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ৮,৯৮৯",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ৮,৯৮৯",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "566aabed336562000500001c",
+          "slug": "pics-new-for-sale-chittagong",
+          "title": "pics new",
+          "type": "for_sale",
+          "date": "2015-12-16T17:53:41+06:00",
+          "area": {
+            "id": 1295,
+            "name": "চট্টগ্রাম"
+          },
+          "location": {
+            "id": 1296,
+            "name": "আগ্রাবাদ"
+          },
+          "category": {
+            "id": 231,
+            "name": "মোবাইল ফোন এক্সেসরিজ"
+          },
+          "contact_card": {
+            "name": "Developer",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0838383838",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ৩৬৬",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/pics-new-for-sale-chittagong",
+          "account": {
+            "id": "56584993303531000a000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ৩৬৬"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ৩৬৬",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ৩৬৬",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ৩৬৬",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "567013fa3365620005000094",
+          "slug": "this-is-a-title-for-sale-khulna",
+          "title": "this is a title",
+          "type": "for_sale",
+          "date": "2015-12-16T12:46:07+06:00",
+          "area": {
+            "id": 1179,
+            "name": "খুলনা"
+          },
+          "location": {
+            "id": 4048,
+            "name": "বাটিঘাটা"
+          },
+          "category": {
+            "id": 579,
+            "name": "ঘরের অন্যান্য জিনিসপত্র"
+          },
+          "contact_card": {
+            "name": "ove",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0234823473",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ২৪,৩৫,৩৪৩",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/this-is-a-title-for-sale-khulna",
+          "account": {
+            "id": "565830dd6636310009000041",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ২৪,৩৫,৩৪৩"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ২৪,৩৫,৩৪৩",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ২৪,৩৫,৩৪৩",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ২৪,৩৫,৩৪৩",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "567013403365620005000091",
+          "slug": "meh-meh-meh-m-for-sale-rajshahi",
+          "title": "meh meh meh m",
+          "type": "for_sale",
+          "date": "2015-12-16T12:37:46+06:00",
+          "area": {
+            "id": 2001000,
+            "name": "রাজশাহী"
+          },
+          "location": {
+            "id": 2001004,
+            "name": "কাজলা"
+          },
+          "category": {
+            "id": 390,
+            "name": "অন্যান্য"
+          },
+          "contact_card": {
+            "name": "meh meh",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "02347324734",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ২,৪২,৩৪,২৩৪",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/meh-meh-meh-m-for-sale-rajshahi",
+          "account": {
+            "id": "5670128e3365620005000089",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ২,৪২,৩৪,২৩৪"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ২,৪২,৩৪,২৩৪",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ২,৪২,৩৪,২৩৪",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ২,৪২,৩৪,২৩৪",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5670108b336562000500007e",
+          "slug": "acer-iphone-original-for-sale-dhaka",
+          "title": "Acer iphone Original",
+          "type": "for_sale",
+          "date": "2015-12-16T12:31:12+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1215,
+            "name": "বাড্ডা"
+          },
+          "category": {
+            "id": 230,
+            "name": "মোবাইল ফোন"
+          },
+          "contact_card": {
+            "name": "asd asdasd asdasdsadasd",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0345634534",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ৮,৮৭,৯৮৬",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/acer-iphone-original-for-sale-dhaka",
+          "account": {
+            "id": "565ec58b303531000a00003e",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ৮,৮৭,৯৮৬"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ৮,৮৭,৯৮৬",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ৮,৮৭,৯৮৬",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ৮,৮৭,৯৮৬",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "566ff1073365620005000067",
+          "slug": "new-thing-for-sale-dhaka",
+          "title": "new thing",
+          "type": "for_sale",
+          "date": "2015-12-16T10:09:38+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1215,
+            "name": "বাড্ডা"
+          },
+          "category": {
+            "id": 390,
+            "name": "অন্যান্য"
+          },
+          "contact_card": {
+            "name": "kerstin",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0348737843",
+              "verified": false
+            }, {
+              "number": "0743854554",
+              "verified": false
+            }, {
+              "number": "03478843734",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ২,৫৬,৬৬৬",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/new-thing-for-sale-dhaka",
+          "account": {
+            "id": "565dc25a303531000a000036",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ২,৫৬,৬৬৬"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ২,৫৬,৬৬৬",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ২,৫৬,৬৬৬",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ২,৫৬,৬৬৬",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56694e283365620005000006",
+          "slug": "1234567890123456789012345678901234567890-for-sale-dhaka",
+          "title": "1234567890123456789012345678901234567890",
+          "type": "for_sale",
+          "date": "2015-12-10T16:04:24+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 4068,
+            "name": "গুলশান"
+          },
+          "category": {
+            "id": 851,
+            "name": "টিভি"
+          },
+          "contact_card": {
+            "name": "ove",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "034583456546",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ৬,৪৫,৬৪৩",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/1234567890123456789012345678901234567890-for-sale-dhaka",
+          "account": {
+            "id": "565830dd6636310009000041",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ৬,৪৫,৬৪৩"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ৬,৪৫,৬৪৩",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ৬,৪৫,৬৪৩",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ৬,৪৫,৬৪৩",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56618af9303531000a000079",
+          "slug": "test-md-for-sale-dhaka",
+          "title": "test md",
+          "type": "for_sale",
+          "date": "2015-12-04T18:45:45+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1215,
+            "name": "বাড্ডা"
+          },
+          "category": {
+            "id": 244,
+            "name": "অন্যান্য ইলেকট্রনিক্স"
+          },
+          "contact_card": {
+            "name": "hui",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "02015120501",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ১১",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/test-md-for-sale-dhaka",
+          "account": {
+            "id": "565d7fd3303531000a000005",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ১১"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ১১",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ১১",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ১১",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56604a50303531000a000068",
+          "slug": "best-job-dhaka",
+          "title": "Best job",
+          "type": "for_sale",
+          "date": "2015-12-03T19:57:36+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1215,
+            "name": "বাড্ডা"
+          },
+          "category": {
+            "id": 349,
+            "name": "চাকরির বিজ্ঞাপন"
+          },
+          "contact_card": {
+            "name": "david",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0707574614",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "পার্ট টাইম",
+          "status": "published",
+          "details": ["david"],
+          "url": "http://staging.bikroy.com/bn/ad/best-job-dhaka",
+          "account": {
+            "id": "565830dc6636310009000023",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "বেতন",
+            "amount": "৳ ১০,০০০ প্রতি বছরে"
+          },
+          "job": {
+            "apply_via": {
+              "email": true
+            }
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "পার্ট টাইম",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "পার্ট টাইম",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "পার্ট টাইম",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "565efa1a303531000a000048",
+          "slug": "tjolahopp-for-sale-dhaka",
+          "title": "tjolahopp",
+          "type": "for_sale",
+          "date": "2015-12-02T20:05:43+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1215,
+            "name": "বাড্ডা"
+          },
+          "category": {
+            "id": 390,
+            "name": "অন্যান্য"
+          },
+          "contact_card": {
+            "name": "kerstin",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0348737843",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ২,২৩,২২৬",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/tjolahopp-for-sale-dhaka",
+          "account": {
+            "id": "565dc25a303531000a000036",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ২,২৩,২২৬"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ২,২৩,২২৬",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ২,২৩,২২৬",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ২,২৩,২২৬",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "565d9a48303531000a000022",
+          "slug": "bmw-320i-to-buy-dhaka",
+          "title": "BMW 320i",
+          "type": "to_buy",
+          "date": "2015-12-01T19:02:00+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1215,
+            "name": "বাড্ডা"
+          },
+          "category": {
+            "id": 193,
+            "name": "গাড়ি"
+          },
+          "contact_card": {
+            "name": "Developer",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "070700007070",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/bmw-320i-to-buy-dhaka",
+          "account": {
+            "id": "56584993303531000a000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ১,২৩৪",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ১,২৩৪",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ১,২৩৪",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "565d96b7303531000a000017",
+          "slug": "bdjdjsjsjhsh-to-buy-dhaka",
+          "title": "bdjdjsjsjhsh",
+          "type": "to_buy",
+          "date": "2015-12-01T18:46:47+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1215,
+            "name": "বাড্ডা"
+          },
+          "category": {
+            "id": 851,
+            "name": "টিভি"
+          },
+          "contact_card": {
+            "name": "Developer",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "070700007070",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/bdjdjsjsjhsh-to-buy-dhaka",
+          "account": {
+            "id": "56584993303531000a000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ১,২৩৪",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ১,২৩৪",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ১,২৩৪",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "565d7fd4303531000a00000a",
+          "slug": "keep-it-short-for-sale-dhaka",
+          "title": "Keep it short!",
+          "type": "for_sale",
+          "date": "2015-12-01T17:09:09+06:00",
+          "area": {
+            "id": 1211,
+            "name": "ঢাকা"
+          },
+          "location": {
+            "id": 1215,
+            "name": "বাড্ডা"
+          },
+          "category": {
+            "id": 390,
+            "name": "অন্যান্য"
+          },
+          "contact_card": {
+            "name": "hui",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "02015120101",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ১,০০০",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/keep-it-short-for-sale-dhaka",
+          "account": {
+            "id": "565d7fd3303531000a000005",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ১,০০০"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ১,০০০",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ১,০০০",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ১,০০০",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56574253303238000800000e",
+          "slug": "benq-eyi-original-for-sale-dhaka-division",
+          "title": "BenQ Eyi Original",
+          "type": "for_sale",
+          "date": "2015-11-26T23:33:07+06:00",
+          "area": {
+            "id": 1141,
+            "name": "ঢাকা বিভাগ"
+          },
+          "location": {
+            "id": 1142,
+            "name": "ফরিদপুর"
+          },
+          "category": {
+            "id": 230,
+            "name": "মোবাইল ফোন"
+          },
+          "contact_card": {
+            "name": "prathibha",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "011942314567890",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ৩৬৮",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/benq-eyi-original-for-sale-dhaka-division",
+          "account": {
+            "id": "5657389e3032380008000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ৩৬৮"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ৩৬৮",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ৩৬৮",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ৩৬৮",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "56574217303238000800000b",
+          "slug": "china-mobile-rui-original-for-sale-dhaka-division",
+          "title": "China Mobile Rui Original",
+          "type": "for_sale",
+          "date": "2015-11-26T23:32:08+06:00",
+          "area": {
+            "id": 1141,
+            "name": "ঢাকা বিভাগ"
+          },
+          "location": {
+            "id": 1142,
+            "name": "ফরিদপুর"
+          },
+          "category": {
+            "id": 230,
+            "name": "মোবাইল ফোন"
+          },
+          "contact_card": {
+            "name": "prathibha",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "011942314567890",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ২৫৭",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/china-mobile-rui-original-for-sale-dhaka-division",
+          "account": {
+            "id": "5657389e3032380008000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ২৫৭"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ২৫৭",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ২৫৭",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ২৫৭",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "565738e13032380008000008",
+          "slug": "blackberry-sdfg-original-for-sale-dhaka-division",
+          "title": "Blackberry sdfg Original",
+          "type": "for_sale",
+          "date": "2015-11-26T22:52:50+06:00",
+          "area": {
+            "id": 1141,
+            "name": "ঢাকা বিভাগ"
+          },
+          "location": {
+            "id": 1142,
+            "name": "ফরিদপুর"
+          },
+          "category": {
+            "id": 230,
+            "name": "মোবাইল ফোন"
+          },
+          "contact_card": {
+            "name": "prathibha",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0119412345678",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ২৩",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/blackberry-sdfg-original-for-sale-dhaka-division",
+          "account": {
+            "id": "5657389e3032380008000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ২৩"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ২৩",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ২৩",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ২৩",
+            "details": [ ]
+            }
+          }
+        }, {
+          "id": "5657389e3032380008000005",
+          "slug": "china-mobile-alskdnfalk-original-for-sale-dhaka-division",
+          "title": "China Mobile alskdnfalk Original",
+          "type": "for_sale",
+          "date": "2015-11-26T22:51:43+06:00",
+          "area": {
+            "id": 1141,
+            "name": "ঢাকা বিভাগ"
+          },
+          "location": {
+            "id": 1142,
+            "name": "ফরিদপুর"
+          },
+          "category": {
+            "id": 230,
+            "name": "মোবাইল ফোন"
+          },
+          "contact_card": {
+            "name": "prathibha",
+            "email": {
+              "verified": false
+            },
+            "phone_numbers": [{
+              "number": "0119412345678",
+              "verified": false
+            }],
+            "opt_out": true,
+            "chat_enabled": false
+          },
+          "info": "৳ ১,২৩৪",
+          "status": "published",
+          "details": [],
+          "url": "http://staging.bikroy.com/bn/ad/china-mobile-alskdnfalk-original-for-sale-dhaka-division",
+          "account": {
+            "id": "5657389e3032380008000000",
+            "traits": {}
+          },
+          "promotions": {
+            "top_ad": false,
+            "bump_up": false
+          },
+          "money": {
+            "label": "মূল্য",
+            "amount": "৳ ১,২৩৪"
+          },
+          "features": {
+            "buy_now": false
+          },
+          "layouts": {
+            "single_column": {
+              "info": "৳ ১,২৩৪",
+              "details": [ "1232929 km", "Condition: new", "Petrol" ]
+            },
+            "classic": {
+              "info": "৳ ১,২৩৪",
+              "details": [ "1232929 km" ]
+            },
+          "fluid": {
+            "info": "৳ ১,২৩৪",
+            "details": [ ]
+            }
+          }
+        }],
+        "top_ads": [],
+        "enhancements": {
+          "cars": false,
+          "properties": false,
+          "jobs": false
+        }
+      },
+      "banners": {
+        "android": {
+          "inline": {
+            "slot": "/134461134/Ikman_ENSITA_Android_SERP_320x100_Firstlistingpage_All",
+            "sizes": [ { "width": 320, "height": 100 } ]
+          }
+        }
+      }
+    }
+  }
+}

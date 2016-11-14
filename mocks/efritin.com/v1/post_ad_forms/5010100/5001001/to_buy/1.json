@@ -1,0 +1,55 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "en_NG",
+      "Application-Identifier": "2f85d4fc-339e-455b-8990-8029f3d90f86",
+      "Application-Name": "android",
+      "Categories-Version": "8c92b8560cbc5238b64f9ece384105bf",
+      "Content-Type": "application/json",
+      "Locations-Version": "237c7035db9fef6a2538855b6155bf36"
+    }
+  },
+  "response": {
+    "schema": "responses/get_post_ad_form_with_location.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "en",
+      "Content-Type": "application/json",
+      "Version": "2009e425f52b3c93a913562a70bd8a60"
+    },
+    "body": {
+      "post_ad_form": {
+        "name": "wanted_ads",
+        "enhancements": {
+          "max_images": 0,
+          "cars": false,
+          "jobs": false,
+          "properties": false
+        },
+        "fields": [{
+          "key": "title",
+          "type": "title",
+          "data": {},
+          "label": "Title",
+          "tooltip": "Keep it short!",
+          "required": true,
+          "minimum_length": 5,
+          "maximum_length": 40
+        }, {
+          "key": "description",
+          "type": "description",
+          "data": {},
+          "label": "Description",
+          "tooltip": "More details = more responses!",
+          "required": true,
+          "minimum_length": 30,
+          "maximum_length": 5000
+        }],
+        "features": {
+          "buy_now": false
+        }
+      }
+    }
+  }
+}

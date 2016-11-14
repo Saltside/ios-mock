@@ -1,0 +1,67 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "Accept-Language": "ta_LK",
+      "Application-Identifier": "76db3ecb-4a7c-4c51-a9a9-009a7258607a",
+      "Application-Name": "android",
+      "Content-Type": "application/json"
+    }
+  },
+  "response": {
+    "schema": "responses/get_memberships.json",
+    "code": 200,
+    "headers": {
+      "Content-Language": "ta",
+      "Content-Type": "application/json",
+      "Version": "dcb0b33e6e898b66ba9b568a66b9c49c"
+    },
+    "body": {
+      "memberships": [{
+        "key": "cars_vehicles",
+        "name": "கார்கள் மற்றும் வாகனங்கள்",
+        "levels": [{
+          "key": "free",
+          "name": "இலவசம்",
+          "limit": {
+            "label": "2",
+            "value": 2
+          }
+        }, {
+          "key": "plus",
+          "name": "பிஸ்னஸ் க்ளாஸ்",
+          "limit": {
+            "label": "20",
+            "value": 20
+          }
+        }, {
+          "key": "premium",
+          "name": "பிஸ்னஸ் பிரிமியம்"
+        }],
+        "category_ids": [392, 403, 917, 925]
+      }, {
+        "key": "three_wheelers_motorbikes",
+        "name": "முச்சக்கர வண்டிகள், மோட்டார் வண்டிகள்",
+        "levels": [{
+          "key": "free",
+          "name": "இலவசம்",
+          "limit": {
+            "label": "2",
+            "value": 2
+          }
+        }, {
+          "key": "plus",
+          "name": "பிஸ்னஸ் க்ளாஸ்",
+          "limit": {
+            "label": "15",
+            "value": 15
+          }
+        }, {
+          "key": "premium",
+          "name": "பிஸ்னஸ் பிரிமியம்"
+        }],
+        "category_ids": [402, 911, 603]
+      }]
+    }
+  }
+}
